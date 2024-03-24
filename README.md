@@ -1,4 +1,3 @@
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # Analiza porównawcza metod porządkowania liniowego (Hellwiga, TOPSIS, pozycyjna, SSW, NOWAK, MUZ, STRAHL) na przykładzie rankingu państw na świecie względem wskaźników zdrowia
 
 > [!IMPORTANT]
@@ -53,7 +52,8 @@ jak je obsłużono
 jak je obsłużono
 
 ## 4. Opis metod porządkowania liniowego
-z_{ij} = \frac{{x_{ij} - \bar{x}_{j}}}{{s}_{j}}
+![porownanie_metod_bar_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/db0e1622-ddda-4d60-90c8-1e153da28e8f)
+
 
 
 
