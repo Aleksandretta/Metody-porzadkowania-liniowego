@@ -1,1 +1,1 @@
-# Metody-porządkowania-liniowego
+# Metody-porządkowania-liniowego-obiektów
