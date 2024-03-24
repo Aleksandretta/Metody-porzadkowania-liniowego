@@ -54,7 +54,10 @@ jak je obsłużono
 ## 4. Opis metod porządkowania liniowego
 | Metoda   | Cecha syntetyczna                                                | Pozostałe wzory                                                                   |
 |----------|------------------------------------------------------------------|---------------------------------------------|
-| Hellwiga | ![CodeCogsEqn](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/a6635f0b-60dd-4451-8b86-fd12a3a6339a) | kolejne zdjecie
+| Hellwiga | ![CodeCogsEqn](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/a6635f0b-60dd-4451-8b86-fd12a3a6339a) | ![CodeCogsEqn](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/e6326303-cf54-42c0-826c-e2f519385f41) ![CodeCogsEqn](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/e6128e4d-9421-4a90-8158-4cff8dffd18a) ![CodeCogsEqn](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/48e3a9c1-c3ca-4df7-8bb5-0e402760cf30) |
+
+
+
 
 
 
