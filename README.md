@@ -29,4 +29,22 @@ Fertility rate, total | uzasadnienie | stymulanta (s)
 ### Wstępna analiza danych
 
 #### statystyki opisowe
-statystyki opisowe
+
+#### podstawowa wizualizacja
+
+#### Braki danych
+jak je obsłużono
+
+#### Obserwacje odstające
+jak je obsłużono
+
+### Opis metod porządkowania liniowego
+- tabelka + cytat skąd wzięto wzory
+
+### Rezultaty
+wyniki: link do tabelki w Excelu
+grafy porównawcze (tylko radar czy bar też?)
+
+### Podsumowanie
+
+### Bibliografia
