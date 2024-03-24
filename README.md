@@ -1,4 +1,4 @@
-# Analiza porównawcza metod porządkowania liniowego państw na świecie względem wskaźników zdrowia
+# Analiza porównawcza metod porządkowania liniowego (Hellwiga, TOPSIS, pozycyjna, SSW, NOWAK, MUZ, STRAHL) na przykładzie rankingu państw na świecie względem wskaźników zdrowia
 
 > [!IMPORTANT]
 > Autorzy pracy: (dopisać numery indeksów) </br>
@@ -6,6 +6,9 @@
 > Maciej Chaciński </br> 
 > Aleksandra Dowgwiłłowicz-Nowicka </br>
 > Krzysztof Federczyk
+
+> [!TIP]
+> Zestawienia rankingów państw w danej metodzie są zaprezentowane najczytelniej w odrębnych arkusach pliku Excel: (https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=Nk8kzL)
 
 ## 1. Streszczenie
 (max. 150 słów)
