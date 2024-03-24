@@ -2,10 +2,10 @@
 
 > [!IMPORTANT]
 > Autorzy pracy: (dopisać numery indeksów) </br>
-> Michał Adamiec
-> Maciej Chaciński
-> Aleksandra Dowgwiłłowicz-Nowicka
-> Krzysztof Federczyk
+> Michał Adamiec </br>
+> Maciej Chaciński </br> 
+> Aleksandra Dowgwiłłowicz-Nowicka </br>
+> Krzysztof Federczyk </br?
 
 ## Streszczenie
 (max. 150 słów)
