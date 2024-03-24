@@ -26,6 +26,20 @@ Zmienna | Uzasadnienie | Typ zmiennej
 Adolescent fertility rate (births per 1000 women ages 15-19) | uzasadnienie | stymulanta (s)
 Fertility rate, total | uzasadnienie | stymulanta (s)
 
+| Zmienna                                                      | Uzasadnienie | Typ zmiennej     |
+|--------------------------------------------------------------|--------------|------------------|
+| Adolescent fertility rate (births per 1000 women ages 15-19) | uzasadnienie | stymulanta (s)   |
+| Fertility rate, total                                        | uzasadnienie | stymulanta (s)   |
+| Birth rate, crude                                            | uzasadnienie | stymulanta (s)   |
+| Life expectancy at birth total                               | uzasadnienie | stymulanta (s)   |
+| People using at least basic sanitation services              | uzasadnienie | stymulanta (s)   |
+| Population growth (annual)                                   | uzasadnienie | stymulanta (s)   |
+| Population (total)                                           | uzasadnienie | stymulanta (s)   |
+| Death rate                                                   | uzasadnienie | destymulanta (d) |
+| Number of deats ages 20-24                                   | uzasadnienie | destymulanta (d) |
+| Number of stillbirths                                        | uzasadnienie | destymulanta (d) |
+| Prevalence of hypertension                                   | uzasadnienie | destymulanta (d) |
+
 ### 3.4 Wstępna analiza danych
 
 #### 3.4.1 Statystyki opisowe
