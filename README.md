@@ -1,7 +1,11 @@
 # Analiza porównawcza metod porządkowania liniowego państw na świecie względem wskaźników zdrowia
 
 > [!IMPORTANT]
-> Autorzy pracy: Michał Adamiec, Maciej Chaciński, Aleksandra Dowgwiłłowicz-Nowicka, Krzysztof Federczyk <- dopisać nr indeksu
+> Autorzy pracy: (dopisać numery indeksów)
+> Michał Adamiec
+> Maciej Chaciński
+> Aleksandra Dowgwiłłowicz-Nowicka
+> Krzysztof Federczyk
 
 ## Streszczenie
 (max. 150 słów)
