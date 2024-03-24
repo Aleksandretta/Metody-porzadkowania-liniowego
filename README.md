@@ -5,7 +5,7 @@
 > Michał Adamiec </br>
 > Maciej Chaciński </br> 
 > Aleksandra Dowgwiłłowicz-Nowicka </br>
-> Krzysztof Federczyk </br?
+> Krzysztof Federczyk
 
 ## Streszczenie
 (max. 150 słów)
