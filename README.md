@@ -1,3 +1,4 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # Analiza porównawcza metod porządkowania liniowego (Hellwiga, TOPSIS, pozycyjna, SSW, NOWAK, MUZ, STRAHL) na przykładzie rankingu państw na świecie względem wskaźników zdrowia
 
 > [!IMPORTANT]
