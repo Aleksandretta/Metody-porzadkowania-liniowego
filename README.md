@@ -52,8 +52,9 @@ jak je obsłużono
 - tabelka + cytat skąd wzięto wzory
 
 ## 5. Rezultaty
-wyniki: link do tabelki w Excelu
-grafy porównawcze (tylko radar czy bar też?)
+wyniki: 
+tabelarycznie + link do tabelki w Excelu
+grafy porównawcze (tylko radar czy bar też?) + linki
 
 ## 6. Podsumowanie
 
