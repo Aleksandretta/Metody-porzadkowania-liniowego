@@ -53,6 +53,13 @@ jak je obsłużono
 
 ## 4. Opis metod porządkowania liniowego
 - tabelka + cytat skąd wzięto wzory
+| Metoda | Cecha syntetyczna | Wzory pomocnicze |
+|--------|-------------------|------------------|
+1. Hellwiga| z_{ij} = \frac{{x_{ij} - \bar{x}_{j}}}{{s}_{j}} | z_{0j} = \begin{cases} 
+\max_i \{ z_{ij} \} & \text{dla stymulant} \\
+\min_i \{ z_{ij} \} & \text{dla destymulant} 
+\end{cases}|
+
 
 ## 5. Rezultaty
 wyniki: 
