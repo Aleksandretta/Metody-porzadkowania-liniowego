@@ -52,7 +52,7 @@ jak je obsłużono
 jak je obsłużono
 
 ## 4. Opis metod porządkowania liniowego
-z_{ij} = \frac{{x_{ij} - \bar{x}_{j}}}{{s}_{j}}
+\( z_{ij} = \frac{x_{ij} - \bar{x}_{j}}{s_{j}} \)
 
 
 
