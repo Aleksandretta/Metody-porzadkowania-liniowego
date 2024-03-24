@@ -11,8 +11,6 @@
 (max. 150 słów)
 
 ### Słowa kluczowe
-> [!Słowa kluczowe]
-> yyy
 
 ## Wprowadzenie
 
@@ -29,3 +27,6 @@ Adolescent fertility rate (births per 1000 women ages 15-19) | uzasadnienie | st
 Fertility rate, total | uzasadnienie | stymulanta (s)
 
 ### Wstępna analiza danych
+
+#### statystyki opisowe
+statystyki opisowe
