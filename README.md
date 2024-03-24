@@ -52,9 +52,7 @@ jak je obsłużono
 jak je obsłużono
 
 ## 4. Opis metod porządkowania liniowego
-| Metoda | Cecha syntetyczna | Pomocnicze wzory |
-| ------ | ----------------- | -----------------|
-| Hellwiga | $z_{ij} = \frac{{x_{ij} - \bar{x}_{j}}}{{s}_{j}}$ | reszta |
+z_{ij} = \frac{{x_{ij} - \bar{x}_{j}}}{{s}_{j}}
 
 
 
