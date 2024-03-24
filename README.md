@@ -1,6 +1,25 @@
-# Metody-porządkowania-liniowego-obiektów
-
-## Analiza porównawcza metod porządkowania liniowego państw na świecie względem wskaźników zdrowia
+# Analiza porównawcza metod porządkowania liniowego państw na świecie względem wskaźników zdrowia
 
 > [!IMPORTANT]
 > Autorzy pracy: Michał Adamiec, Maciej Chaciński, Aleksandra Dowgwiłłowicz-Nowicka, Krzysztof Federczyk <- dopisać nr indeksu
+
+## Streszczenie
+(max. 150 słów)
+
+### Słowa kluczowe
+
+## Wprowadzenie
+
+## Przedmiot badania
+
+### Cel i zakres badania
+
+### Przegląd literatury
+
+### Zmienne wybrane do analizy
+Zmienna | Uzasadnienie | Typ zmiennej
+------- | ------------ | ------------
+Adolescent fertility rate (births per 1000 women ages 15-19) | uzasadnienie | stymulanta (s)
+Fertility rate, total | uzasadnienie | stymulanta (s)
+
+### Wstępna analiza danych
