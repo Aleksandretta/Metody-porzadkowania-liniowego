@@ -7,44 +7,44 @@
 > Aleksandra Dowgwiłłowicz-Nowicka </br>
 > Krzysztof Federczyk
 
-## Streszczenie
+## 1. Streszczenie
 (max. 150 słów)
 
-### Słowa kluczowe
+### 1.1 Słowa kluczowe
 
-## Wprowadzenie
+## 2. Wprowadzenie
 
-## Przedmiot badania
+## 3. Przedmiot badania
 
-### Cel i zakres badania
+### 3.1 Cel i zakres badania
 
-### Przegląd literatury
+### 3.2 Przegląd literatury
 
-### Zmienne wybrane do analizy
+### 3.3 Zmienne wybrane do analizy
 Zmienna | Uzasadnienie | Typ zmiennej
 ------- | ------------ | ------------
 Adolescent fertility rate (births per 1000 women ages 15-19) | uzasadnienie | stymulanta (s)
 Fertility rate, total | uzasadnienie | stymulanta (s)
 
-### Wstępna analiza danych
+### 3.4 Wstępna analiza danych
 
-#### statystyki opisowe
+#### 3.4.1 Statystyki opisowe
 
-#### podstawowa wizualizacja
+#### 3.4.2 Podstawowa wizualizacja
 
-#### Braki danych
+#### 3.4.3 Braki danych
 jak je obsłużono
 
-#### Obserwacje odstające
+#### 3.4.5 Obserwacje odstające
 jak je obsłużono
 
-### Opis metod porządkowania liniowego
+## 4. Opis metod porządkowania liniowego
 - tabelka + cytat skąd wzięto wzory
 
-### Rezultaty
+## 5. Rezultaty
 wyniki: link do tabelki w Excelu
 grafy porównawcze (tylko radar czy bar też?)
 
-### Podsumowanie
+## 6. Podsumowanie
 
-### Bibliografia
+## 7. Bibliografia
