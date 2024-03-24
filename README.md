@@ -21,10 +21,6 @@
 ### 3.2 Przegląd literatury
 
 ### 3.3 Zmienne wybrane do analizy
-Zmienna | Uzasadnienie | Typ zmiennej
-------- | ------------ | ------------
-Adolescent fertility rate (births per 1000 women ages 15-19) | uzasadnienie | stymulanta (s)
-Fertility rate, total | uzasadnienie | stymulanta (s)
 
 | Zmienna                                                      | Uzasadnienie | Typ zmiennej     |
 |--------------------------------------------------------------|--------------|------------------|
