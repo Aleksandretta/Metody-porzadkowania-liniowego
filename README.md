@@ -1,4 +1,4 @@
-# Analiza porównawcza metod porządkowania liniowego (Hellwiga, TOPSIS, pozycyjna, SSW, NOWAK, MUZ, STRAHL) na przykładzie rankingu państw na świecie względem wskaźników zdrowia
+# Analiza porównawcza metod porządkowania liniowego (Hellwiga, TOPSIS, SSW, NOWAK, MUZ, STRAHL) </br> na przykładzie rankingu państw na świecie </br> względem wskaźników zdrowia
 
 > [!IMPORTANT]
 > Autorzy pracy: (dopisać numery indeksów) </br>
