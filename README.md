@@ -2,10 +2,10 @@
 
 > [!IMPORTANT]
 > Autorzy pracy: (dopisać numery indeksów) </br>
-> Michał Adamiec </br>
-> Maciej Chaciński 217421 </br> 
-> Aleksandra Dowgwiłłowicz-Nowicka 217265 </br>
-> Krzysztof Federczyk 217451
+> Michał Adamiec, </br>
+> Maciej Chaciński, 217421 </br> 
+> Aleksandra Dowgwiłłowicz-Nowicka, 217265 </br>
+> Krzysztof Federczyk, 217451
 
 > [!TIP]
 > Zestawienia rankingów państw według danej metody są zaprezentowane najczytelniej w odrębnych arkuszach pliku [Excel](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=Nk8kzL)
