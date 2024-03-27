@@ -4,7 +4,7 @@
 > Autorzy pracy: (dopisać numery indeksów) </br>
 > Michał Adamiec </br>
 > Maciej Chaciński 217421 </br> 
-> Aleksandra Dowgwiłłowicz-Nowicka </br>
+> Aleksandra Dowgwiłłowicz-Nowicka 217265 </br>
 > Krzysztof Federczyk 217451
 
 > [!TIP]
