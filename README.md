@@ -190,7 +190,8 @@ grafy porównawcze (tylko radar czy bar też?) + linki
 **Wykres 5.4** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji k_sasiadow](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_k_sasiadow.jpg)
 ![macierz_korelacji_rankingow_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/ce67ec0b-0309-48ad-99f5-5c1a1a675e06)
 
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu zidentyfikowania metody porządowania liniowego obiektów najbardziej skorelowanej z pozostałymi metodami utworzono wektory z uśrednionym skorelowaniem danej metody względem pozostałych (u_winsor i u_k_sas) dla obu metod obsłużenia obserwacji odstających. Współrzędne wektorów odpowiadają metodom porządkowania liniowego zgodnie z kolejnością w tabeli 4.1.
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu zidentyfikowania metody porządowania liniowego obiektów najbardziej skorelowanej z pozostałymi metodami utworzono wektory z uśrednionym skorelowaniem danej metody względem pozostałych (u_winsor i u_k_sas) dla obu metod obsłużenia obserwacji odstających. 
+Współrzędne wektorów odpowiadają metodom porządkowania liniowego zgodnie z kolejnością w tabeli 4.1.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **u_winsor = [0.756, 0.742, 0.893, 0.905, 0.867, 0.891, 0.918]**
 
