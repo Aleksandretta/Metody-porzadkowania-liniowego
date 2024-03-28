@@ -117,26 +117,8 @@ wyniki:
 tabelarycznie + link do tabelki w Excelu
 grafy porównawcze (tylko radar czy bar też?) + linki
 
-| Jednostka terytorialna         | qi       | Rank |
-|--------------------------------|----------|------|
-| Equatorial Guinea              | 0,656257 | 1    |
-| Jordan                         | 0,608104 | 2    |
-| Gabon                          | 0,594027 | 3    |
-| Oman                           | 0,593237 | 4    |
-| Gambia, The                    | 0,59027  | 5    |
-| Mauritania                     | 0,583321 | 6    |
-| Congo, Rep.                    | 0,580974 | 7    |
-| Zambia                         | 0,578213 | 8    |
-| Solomon Islands                | 0,574824 | 9    |
-| Mali                           | 0,574496 | 10   |
-| ...                            | ...      | ...  |
-| Moldova                        | 0,391241 | 180  |
-| China                          | 0,387427 | 181  |
-| Russian Federation             | 0,386575 | 182  |
-| Bosnia and Herzegovina         | 0,386031 | 183  |
-| Myanmar                        | 0,384622 | 184  |
-| Lithuania                      | 0,381618 | 185  |
-| Syrian Arab Republic           | 0,353429 | 186  |
+Wartości miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom (na danych przybliżanych metodą winsoryzacji) przez metody porządkowania liniowego (Hellwig, TOPSIS, TOPSIS (unitaryzacja), SWW, NOWAK, MUZ, STRAHL) zostały przedstawione w postaci tabelarycznej w tabeli 5.1. </br>
+Wyświetlanie wyników ograniczono do krajów na pierwszych 10 pozcjach oraz 5 ostatnich pozycjach w danej metodzie. Pełne wyniki w postaci tabelarycznej znajdują się pod linkiem: [(Excel, arkusz "Porównanie państw")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=aubdEd&nav=MTVfe0VEMUE0RDcyLUZGNDQtNDgxNi04QTQyLThFNTFFNzVBMEE4NX0)
 
 | Jednostka terytorialna | qi     | Hellwig_rank | Jednostka terytorialna | qi    | TOPSIS_rank | Jednostka terytorialna | qi    | TOPSIS_uni_rank | Jednostka terytorialna | qi     | SSW_rank | Jednostka terytorialna | qi     | NOWAK_rank | Jednostka terytorialna | qi    | MUZ_rank | Jednostka terytorialna | qi    | STRAHL_rank |
 |------------------------|--------|--------------|------------------------|-------|-------------|------------------------|-------|-----------------|------------------------|--------|----------|------------------------|--------|------------|------------------------|-------|----------|------------------------|-------|-------------|
@@ -157,6 +139,31 @@ grafy porównawcze (tylko radar czy bar też?) + linki
 | Serbia                 | -0,039 | 184          | Myanmar                | 0,385 | 184         | Russian Federation     | 0,409 | 184             | Russian Federation     | -0,579 | 184      | Russian Federation     | -0,065 | 184        | Lithuania              | 0,020 | 184      | South Africa           | 0,025 | 184         |
 | Moldova                | -0,045 | 185          | Lithuania              | 0,382 | 185         | Myanmar                | 0,404 | 185             | Moldova                | -0,626 | 185      | South Africa           | -0,086 | 185        | Russian Federation     | 0,006 | 185      | Lithuania              | 0,024 | 185         |
 | Lithuania              | -0,079 | 186          | Syrian Arab Republic   | 0,353 | 186         | South Africa           | 0,392 | 186             | Lithuania              | -0,648 | 186      | China                  | -0,099 | 186        | South Africa           | 0,002 | 186      | Russian Federation     | 0,019 | 186         |
+
+</br>
+Wartości miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom (na danych przybliżanych metodą k-sąsiadów) przez metody porządkowania liniowego (Hellwig, TOPSIS, TOPSIS (unitaryzacja), SWW, NOWAK, MUZ, STRAHL) zostały przedstawione w postaci tabelarycznej w tabeli 5.2. </br>
+Wyświetlanie wyników ograniczono do krajów na pierwszych 10 pozcjach oraz 5 ostatnich pozycjach w danej metodzie. Pełne wyniki w postaci tabelarycznej znajdują się pod linkiem: [(Excel, arkusz "Porównanie państw")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=aubdEd&nav=MTVfe0VEMUE0RDcyLUZGNDQtNDgxNi04QTQyLThFNTFFNzVBMEE4NX0)
+
+| Jednostka terytorialna | qi     | Hellwig_rank | Jednostka terytorialna | qi    | TOPSIS_rank | Jednostka terytorialna | qi    | TOPSIS_uni_rank | Jednostka terytorialna | qi     | SSW_rank | Jednostka terytorialna | qi     | NOWAK_rank | Jednostka terytorialna | qi     | MUZ_rank | Jednostka terytorialna | qi    | STRAHL_rank |
+|------------------------|--------|--------------|------------------------|-------|-------------|------------------------|-------|-----------------|------------------------|--------|----------|------------------------|--------|------------|------------------------|--------|----------|------------------------|-------|-------------|
+| Ethiopia               | 0,668  | 1            | Ethiopia               | 0,878 | 1           | Ethiopia               | 0,636 | 1               | Ethiopia               | 2,163  | 1        | Ethiopia               | 3,8617 | 1          | Ethiopia               | 0,329  | 1        | Ethiopia               | 0,742 | 1           |
+| Korea, Rep.            | 0,206  | 2            | Equatorial Guinea      | 0,333 | 2           | Tanzania               | 0,540 | 2               | Korea, Rep.            | 0,578  | 2        | Equatorial Guinea      | 0,6359 | 2          | Tanzania               | 0,192  | 2        | Equatorial Guinea      | 0,266 | 2           |
+| Solomon Islands        | 0,196  | 3            | Gabon                  | 0,323 | 3           | Korea, Rep.            | 0,529 | 3               | Israel                 | 0,496  | 3        | Gabon                  | 0,5792 | 3          | Korea, Rep.            | 0,178  | 3        | Gambia, The            | 0,261 | 3           |
+| Vanuatu                | 0,188  | 4            | Solomon Islands        | 0,321 | 4           | Egypt, Arab Rep.       | 0,524 | 4               | Solomon Islands        | 0,481  | 4        | Korea, Rep.            | 0,5728 | 4          | Egypt, Arab Rep.       | 0,169  | 4        | Solomon Islands        | 0,258 | 4           |
+| Gabon                  | 0,185  | 5            | Vanuatu                | 0,320 | 5           | Israel                 | 0,521 | 5               | Tanzania               | 0,472  | 5        | Gambia, The            | 0,5656 | 5          | Israel                 | 0,167  | 5        | West Bank and Gaza     | 0,257 | 5           |
+| Israel                 | 0,184  | 6            | Nauru                  | 0,320 | 6           | Iran, Islamic Rep.     | 0,518 | 6               | Ecuador                | 0,434  | 6        | Solomon Islands        | 0,5647 | 6          | Iran, Islamic Rep.     | 0,161  | 6        | Gabon                  | 0,253 | 6           |
+| West Bank and Gaza     | 0,183  | 7            | Gambia, The            | 0,319 | 7           | Zambia                 | 0,515 | 7               | Iran, Islamic Rep.     | 0,426  | 7        | Vanuatu                | 0,5478 | 7          | Zambia                 | 0,157  | 7        | Zambia                 | 0,249 | 7           |
+| Panama                 | 0,182  | 8            | Korea, Rep.            | 0,318 | 8           | Solomon Islands        | 0,514 | 8               | Egypt, Arab Rep.       | 0,386  | 8        | Nauru                  | 0,5407 | 8          | Solomon Islands        | 0,154  | 8        | Israel                 | 0,248 | 8           |
+| Samoa                  | 0,181  | 9            | France                 | 0,317 | 9           | Ecuador                | 0,511 | 9               | Zambia                 | 0,384  | 9        | Mauritania             | 0,5357 | 9          | Ecuador                | 0,151  | 9        | Mauritania             | 0,247 | 9           |
+| Ecuador                | 0,179  | 10           | Sao Tome and Principe  | 0,317 | 10          | Uganda                 | 0,507 | 10              | West Bank and Gaza     | 0,362  | 10       | Sao Tome and Principe  | 0,5146 | 10         | Uganda                 | 0,147  | 10       | Vanuatu                | 0,245 | 10          |
+| ...                    | ...    | ...          | ...                    | ...   | ...         | ...                    | ...   | ...             | ...                    | ...    | ...      | ...                    | ...    | ...        | ...                    | ...    | ...      | ...                    | ...   | ...         |
+| Kenya                  | 0,010  | 181          | Russian Federation     | 0,195 | 181         | Serbia                 | 0,326 | 181             | Hungary                | -0,586 | 181      | Russian Federation     | -0,241 | 181        | Hungary                | -0,096 | 181      | Niger                  | 0,052 | 181         |
+| Russian Federation     | 0,005  | 182          | Niger                  | 0,190 | 182         | Romania                | 0,321 | 182             | Latvia                 | -0,595 | 182      | Kenya                  | -0,241 | 182        | Romania                | -0,098 | 182      | Serbia                 | 0,041 | 182         |
+| Mozambique             | 0,001  | 183          | United States          | 0,185 | 183         | Russian Federation     | 0,318 | 183             | Croatia                | -0,644 | 183      | United States          | -0,241 | 183        | Latvia                 | -0,102 | 183      | Croatia                | 0,041 | 183         |
+| Uganda                 | -0,001 | 184          | Bangladesh             | 0,183 | 184         | Dominica               | 0,317 | 184             | Serbia                 | -0,670 | 184      | Bangladesh             | -0,318 | 184        | Croatia                | -0,110 | 184      | Bulgaria               | 0,035 | 184         |
+| Philippines            | -0,002 | 185          | Philippines            | 0,181 | 185         | Bulgaria               | 0,311 | 185             | Bulgaria               | -0,696 | 185      | Philippines            | -0,384 | 185        | Serbia                 | -0,115 | 185      | Brazil                 | 0,027 | 185         |
+| Brazil                 | -0,028 | 186          | Brazil                 | 0,162 | 186         | Latvia                 | 0,309 | 186             | Russian Federation     | -0,699 | 186      | Brazil                 | -0,455 | 186        | Bulgaria               | -0,122 | 186      | Russian Federation     | 0,009 | 186         |
+
 
 ## 6. Podsumowanie
 
