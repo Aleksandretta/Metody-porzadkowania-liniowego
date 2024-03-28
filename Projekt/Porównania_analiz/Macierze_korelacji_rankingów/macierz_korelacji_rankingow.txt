@@ -1,0 +1,33 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Wczytywanie danych z arkusza kalkulacyjnego Excela
+df = pd.read_excel('porownanie_metod_bez_pozycyjnej.xlsx', sheet_name='k_sasiadow')
+
+# Usunięcie kolumny "Country" przed obliczeniem korelacji
+df.drop(columns=['Country'], inplace=True)
+
+# Mapowanie nazw kolumn
+column_mapping = {
+    'Rank_topsis_k_sasiadow': 'Topsis',
+    'Rank_hellwig_k_sasiadow': 'Hellwig',
+    'Rank_topsis_unitaryzacja_k_sasiadow': 'Topsis_u',
+    'Rank_ssw_k_sasiadow': 'SSW',
+    'Rank_nowak_k_sasiadow': 'NOWAK',
+    'Rank_muz_k_sasiadow': 'MUZ',
+    'Rank_strahl_k_sasiadow': 'STRAHL'
+}
+
+df.rename(columns=column_mapping, inplace=True)
+
+# Obliczanie macierzy korelacji
+correlation_matrix = df.corr()
+
+# Tworzenie mapy cieplnej
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Macierz korelacji rankingów')
+#plt.xticks(rotation=15)
+#plt.yticks(rotation=45)
+plt.savefig('macierz_korelacji_rankingow_k_sasiadow_27.03.jpg', dpi=600)

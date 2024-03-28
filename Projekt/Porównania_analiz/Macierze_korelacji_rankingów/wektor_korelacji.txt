@@ -1,0 +1,20 @@
+import numpy as np
+import pandas as pd
+
+# Wczytaj macierz korelacji z pliku CSV
+correlation_df = pd.read_csv('sciezka_do_pliku.csv', index_col=0)
+
+# Skonwertuj ramkę danych na macierz NumPy
+correlation_matrix = correlation_df.to_numpy()
+
+# Oblicz średnią korelację dla każdej metody
+average_correlation = np.mean(correlation_matrix, axis=1)
+
+# Wyświetl wyniki wszystkich metod
+for i, avg_corr in enumerate(average_correlation):
+    print(f"Metoda {i}: Średnia korelacja = {avg_corr}")
+
+# Znajdź indeks metody, która ma najwyższą średnią korelację
+most_consistent_method_index = np.argmax(average_correlation)
+
+print("\nNajbardziej spójna metoda to metoda o indeksie:", most_consistent_method_index)
