@@ -97,7 +97,6 @@ jak je obsłużono (opis metod)
 | wąs górny     | 156,969                                                       | 6,013                                    | 54,838                               | 93,996                                  | 165,648                                                           | 4,220                        | 56681792,375      | 13,249                               | 5954,500                          | 14484,000             | 54,450                                              |
 | skośność      | 0,871                                                         | 0,785                                    | 0,464                                | -0,233                                  | -0,917                                                            | 0,131                        | 1,979             | 0,919                                | 0,123                             | -3,598                | -0,026                                              |
 </br>
-
 #### 3.4.4 Podstawowa wizualizacja
 (opis+ histogramy dla każdej cechy na danych z arkusza "Dane bez braków", boxploty i wykresy LOF wszystko na bazie "Dane bez braków" + odnośniki do kodów i folderów ze zdjęciami: tu można poglądowo wstawić po 2-3)
 
