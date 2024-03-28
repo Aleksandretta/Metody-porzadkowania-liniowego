@@ -142,10 +142,7 @@ Wyświetlanie wyników ograniczono do krajów na pierwszych 10 pozcjach oraz 5 o
 | Moldova                | -0,045 | 185          | Lithuania              | 0,382 | 185         | Myanmar                | 0,404 | 185             | Moldova                | -0,626 | 185      | South Africa           | -0,086 | 185        | Russian Federation     | 0,006 | 185      | Lithuania              | 0,024 | 185         |
 | Lithuania              | -0,079 | 186          | Syrian Arab Republic   | 0,353 | 186         | South Africa           | 0,392 | 186             | Lithuania              | -0,648 | 186      | China                  | -0,099 | 186        | South Africa           | 0,002 | 186      | Russian Federation     | 0,019 | 186         |
 
-</br>
-Wartości miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom (na danych przybliżanych metodą k-sąsiadów) przez metody porządkowania liniowego (Hellwig, TOPSIS, TOPSIS (unitaryzacja), SWW, NOWAK, MUZ, STRAHL) zostały przedstawione w postaci tabelarycznej w tabeli 5.2. </br>
-Wyświetlanie wyników ograniczono do krajów na pierwszych 10 pozcjach oraz 5 ostatnich pozycjach w danej metodzie. Pełne wyniki w postaci tabelarycznej znajdują się pod linkiem: Excel, arkusz "Porównanie państw" </br>
-
+</br>Wartości miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom (na danych przybliżanych metodą k-sąsiadów) przez metody porządkowania liniowego (Hellwig, TOPSIS, TOPSIS (unitaryzacja), SWW, NOWAK, MUZ, STRAHL) zostały przedstawione w postaci tabelarycznej w tabeli 5.2. </br>Wyświetlanie wyników ograniczono do krajów na pierwszych 10 pozcjach oraz 5 ostatnich pozycjach w danej metodzie. Pełne wyniki w postaci tabelarycznej znajdują się pod linkiem: [(Excel, arkusz "Porównanie państw")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=aubdEd&nav=MTVfe0VEMUE0RDcyLUZGNDQtNDgxNi04QTQyLThFNTFFNzVBMEE4NX0)</br>
 **Tabela 5.2** *Wartość miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom przez różne metody porządkowania liniowego (na danych przybliżanych metodą k-sąsiadów (k=5)*
 </br>
 
@@ -169,9 +166,8 @@ Wyświetlanie wyników ograniczono do krajów na pierwszych 10 pozcjach oraz 5 o
 | Philippines            | -0,002 | 185          | Philippines            | 0,181 | 185         | Bulgaria               | 0,311 | 185             | Bulgaria               | -0,696 | 185      | Philippines            | -0,384 | 185        | Serbia                 | -0,115 | 185      | Brazil                 | 0,027 | 185         |
 | Brazil                 | -0,028 | 186          | Brazil                 | 0,162 | 186         | Latvia                 | 0,309 | 186             | Russian Federation     | -0,699 | 186      | Brazil                 | -0,455 | 186        | Bulgaria               | -0,122 | 186      | Russian Federation     | 0,009 | 186         |
 
-</br>
-Graficzne przedstawienie różnic w rankingach państw (zarówno na danych przybliżonych za pomocą metody winsoryzacji, jak również danych przybliżonych metodą k-sąsiadów) w postaci wykresów sieciowych (Obraz 5.1 oraz Obraz 5.2) oraz dla lepszego zilustrowania różnic w rankingach konkretnego kraju w postaci wykresów słupkowych (Wykres 5.1 oraz Wykres 5.2). </br> Wszystkie wykresy słupkowe są dostępne w folderze boxplot_bar: przykładowy link do wykresu: [boxplot_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg) oraz w folderze k_sasiadow_bar: przykładowy link do wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sas_AFG-COD.jpg.jpg)
-</br>
+
+</br>Graficzne przedstawienie różnic w rankingach państw (zarówno na danych przybliżonych za pomocą metody winsoryzacji, jak również danych przybliżonych metodą k-sąsiadów) w postaci wykresów sieciowych (Obraz 5.1 oraz Obraz 5.2) oraz dla lepszego zilustrowania różnic w rankingach konkretnego kraju w postaci wykresów słupkowych (Wykres 5.1 oraz Wykres 5.2). </br> Wszystkie wykresy słupkowe są dostępne w folderze boxplot_bar: przykładowy link do wykresu: [boxplot_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg) oraz w folderze k_sasiadow_bar: przykładowy link do wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sas_AFG-COD.jpg.jpg)</br>
 
 ## 6. Podsumowanie
 
