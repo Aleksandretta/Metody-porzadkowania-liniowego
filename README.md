@@ -203,10 +203,20 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 
 Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy metody k-sąsiadów (k=5), najbardziej skorelowana z pozostałymi metodami jest metoda NOWAK.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ostatecznie, kraje zostały podzielone na cztery grupy względem wysokości badanych wskaźników zdrowia, dla danych przybliżonych metodą winsoryzacji wartość miernika syntetycznego (qi) wzięto z obliczeń metodą STRAHLA, zaś dla danych przybliżonych metodą k-sąsiadów z obliczeń metodą NOWAK, przy czym:
-* grupa 1 (bardzo wysoki poziom): qi \[
-q_i \in \left(\max_i q_i - 0.25R, \max_i q_i\right)
-\]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ostatecznie, kraje zostały podzielone na cztery grupy względem wysokości badanych wskaźników zdrowia, dla danych przybliżonych metodą winsoryzacji wartość miernika syntetycznego (qi) wzięto z obliczeń metodą STRAHL, zaś dla danych przybliżonych metodą k-sąsiadów z obliczeń metodą NOWAK, przy czym:
+* grupa 1 (bardzo wysoki poziom): ![CodeCogsEqn (1)](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/c2385712-d0fe-46db-a1c6-f5b7a77270c1)
+* grupa 2 (wysoki poziom): ![CodeCogsEqn](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/d6202f34-98ce-45c4-a398-43b826af69ba)
+* grupa 3 (średni poziom): ![CodeCogsEqn3](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/04b40cc7-91f0-4d24-b5be-cdd5406944c4)
+* grupa 4 (niski poziom): ![CodeCogsEqn4](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/7ee34c4c-2a94-45d8-a9fa-a4d91db66e0c)
+gdzie: ![CodeCogsEqn5](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/4d352c16-85f8-4ac5-aab0-cacc4e52a0d1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.5 i 5.6 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających.
+
+**Wykres 5.5** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą winsoryzacji*
+
+**Wykres 5.6** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą NOWAK dla danych przybliżonych metodą k-sąsiadów (k=5)*
+
+
 
 
 ## 6. Podsumowanie
