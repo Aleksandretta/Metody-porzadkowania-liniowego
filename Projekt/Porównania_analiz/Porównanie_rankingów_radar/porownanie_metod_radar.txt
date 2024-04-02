@@ -1,0 +1,42 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Wczytaj dane z pliku Excela
+df = pd.read_excel('wyniki_boss_qi_02.04.xlsx', sheet_name='k_sasiadow_rank')
+
+# Wybierz nazwy państw oraz rankingi dla wszystkich metod
+countries = df['Country']
+rankings = {
+    'TOPSIS': df['Rank_topsis_k_sasiadow'],
+    'Hellwig': df['Rank_hellwig_k_sasiadow'],
+    'SSW': df['Rank_ssw_k_sasiadow'],
+    'NOWAK': df['Rank_nowak_k_sasiadow'],
+    'STRAHL': df['Rank_strahl_k_sasiadow']
+}
+
+# Liczba państw
+num_countries = len(countries)
+
+# Wartości kątów dla rogów wykresu
+angles = np.linspace(0, 2*np.pi, num_countries, endpoint=False).tolist()
+
+# Tworzenie wykresu
+fig, ax = plt.subplots(figsize=(10, 10), subplot_kw=dict(polar=True))
+
+# Dodawanie rankingów dla każdej metody
+for method, ranking in rankings.items():
+    ax.plot(angles, ranking, linewidth=1, linestyle='solid', label=method)
+
+# Dodanie nazw państw na rogach wykresu
+for i in range(num_countries):
+    ax.text(angles[i], max(max(ranking) for ranking in rankings.values()), countries[i], fontsize=4, ha='center')
+
+# Dodanie tytułu wykresu
+ax.set_title('Porównanie rankingów państw dla różnych \n metod porządowania liniowego obiektów \n na danych, gdzie obserwacje odstające \n przybliżono przy pomocy k_sasiadów')
+
+# Dodanie legendy
+ax.legend(loc='upper right', bbox_to_anchor=(0.1, 0.1))
+
+# Zapisanie wykresu jako pliku JPG
+plt.savefig('radar_k_sasiadow_02.04.jpg', dpi=600)
