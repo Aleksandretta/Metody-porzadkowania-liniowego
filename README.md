@@ -42,7 +42,8 @@
 ### 3.4 Wstępna analiza danych
 
 #### 3.4.1 Braki danych
-jak je obsłużono
+~14% oryginalnych danych (30 na 217 państw) stanowiły braki danych.
+Metodą ich obsłużenia było usunięcie.
 </br>
 
 #### 3.4.2 Obserwacje odstające
