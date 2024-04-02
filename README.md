@@ -1,8 +1,8 @@
 # Analiza porównawcza metod porządkowania liniowego </br> (Hellwiga, TOPSIS, SSW, NOWAK, MUZ, STRAHL) </br> na przykładzie rankingu państw na świecie </br> względem wskaźników zdrowia
 
 > [!IMPORTANT]
-> Autorzy pracy: (dopisać numery indeksów) </br>
-> Michał Adamiec, </br>
+> Autorzy pracy: </br>
+> Michał Adamiec, 217633 </br>
 > Maciej Chaciński, 217421 </br> 
 > Aleksandra Dowgwiłłowicz-Nowicka, 217265 </br>
 > Krzysztof Federczyk, 217451
