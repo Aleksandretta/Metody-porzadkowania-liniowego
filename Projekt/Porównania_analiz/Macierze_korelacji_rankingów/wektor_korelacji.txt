@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # Wczytaj macierz korelacji z pliku CSV
-correlation_df = pd.read_csv('sciezka_do_pliku.csv', index_col=0)
+correlation_df = pd.read_csv('macierz_korelacji_k_sas.csv', index_col=0)
 
 # Skonwertuj ramkę danych na macierz NumPy
 correlation_matrix = correlation_df.to_numpy()
