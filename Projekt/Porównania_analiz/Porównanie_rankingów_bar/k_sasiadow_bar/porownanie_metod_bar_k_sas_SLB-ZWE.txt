@@ -3,18 +3,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Wczytaj dane z pliku Excela
-df = pd.read_excel('porownanie_metod_bez_pozycyjnej.xlsx', sheet_name='k_sasiadow')
+df = pd.read_excel('wyniki_boss_qi_02.04.xlsx', sheet_name='k_sasiadow_rank')
 
 # Wybierz nazwy państw oraz rankingi dla wszystkich metod
-countries = df['Country'][149:186]  # Wybieramy pierwsze 50 krajów
+countries = df['Country'][148:185]  # Wybieramy pierwsze 50 krajów
 rankings = {
-    'TOPSIS': df['Rank_topsis_k_sasiadow'][149:186],
-    'TOPSIS unitaryzacja': df['Rank_topsis_unitaryzacja_k_sasiadow'][149:186],
-    'Hellwig': df['Rank_hellwig_k_sasiadow'][149:186],
-    'SSW': df['Rank_ssw_k_sasiadow'][149:186],
-    'NOWAK': df['Rank_nowak_k_sasiadow'][149:186],
-    'MUZ': df['Rank_muz_k_sasiadow'][149:186],
-    'STRAHL': df['Rank_strahl_k_sasiadow'][149:186]
+    'TOPSIS': df['Rank_topsis_k_sasiadow'][148:185],
+    'Hellwig': df['Rank_hellwig_k_sasiadow'][148:185],
+    'SSW': df['Rank_ssw_k_sasiadow'][148:185],
+    'NOWAK': df['Rank_nowak_k_sasiadow'][148:185],
+    'STRAHL': df['Rank_strahl_k_sasiadow'][148:185]
 }
 
 # Tworzenie wykresu
@@ -33,10 +31,10 @@ ax.set_xticks(positions + 2 * bar_width / 2)
 ax.set_xticklabels(countries, rotation=45, ha='right', fontsize=8)
 
 # Dodanie tytułu i legendy
-ax.set_title('Porównanie rankingów państw SLB-ZWE dla danych przybliżanych metodą k-sąsiadów')
+ax.set_title('Porównanie rankingów państw SLB-ZWE dla danych przybliżanych metoda k_sasiadow')
 ax.legend()
 
 # Pokaż wykres
 plt.tight_layout()
-plt.savefig('porownanie_metod_bar_k_sas_SLB-ZWE.jpg', dpi=600)
+plt.savefig('porownanie_metod_bar_k_sasiadow_SLB-ZWE_02.04.jpg', dpi=600)
 plt.close()
