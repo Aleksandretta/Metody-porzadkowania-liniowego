@@ -29,10 +29,10 @@ Celem badania jest opracowanie rankingów krajów na świecie oraz jednostek ter
 ### 3.3 Zmienne wybrane do analizy
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Wybierając cechy diagnostyczne do stworzenia rankingów państw na podstawie różnych wskaźników zdrowia, demografii i warunków sanitarnych, kierowano się analizą merytoryczną, statystyczną i dostępnością danych. 
-</br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Analiza merytoryczna obejmowała ocenę znaczenia poszczególnych wskaźników w kontekście oceny stanu zdrowia, demografii i warunków sanitarnych w poszczególnych państwach. Wybierane były te cechy, które były istotne dla tego obszaru badawczego, takie jak wskaźniki dzietności, wskaźniki umieralności, czy wskaźniki dostępu do podstawowych usług sanitarnych. Dodatkowo, analizowano statystyczną zmienność cech, przyjmując minimalne kryteria współczynnika zmienności (co najmniej 0,1) oraz ilorazu skrajnych wartości (co najmniej 2), aby zapewnić reprezentatywność danych. 
-</br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Podczas procesu tworzenia rankingów państw wykorzystano kryterium merytoryczne, wybierając wskaźniki, które adekwatnie charakteryzują stan zdrowia, demografii i warunków sanitarnych w poszczególnych państwach. Ponadto, zastosowano kryterium statystyczne, koncentrując się na cechach charakteryzujących się odpowiednią zmiennością w celu zapewnienia zróżnicowania analizy. Te działania miały na celu zapewnienie kompleksowej oceny i porównania państw pod kątem różnych aspektów zdrowia, demografii i warunków sanitarnych. 
 </br>
