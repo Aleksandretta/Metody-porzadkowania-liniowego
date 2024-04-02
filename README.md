@@ -256,9 +256,9 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.5 i 5.6 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających.
 
-**Wykres 5.5** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą winsoryzacji*
+**Wykres 5.5** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą winsoryzacji*
 
-**Wykres 5.6** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą NOWAK dla danych przybliżonych metodą k-sąsiadów (k=5)*
+**Wykres 5.6** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą k-sąsiadów (k=5)*
 
 
 
