@@ -147,8 +147,7 @@ link do przykładowego wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Por�
 | STRAHL | ![qi](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/48699068/fc12f896-23c5-40ab-9013-69bfe613d9a0)|![zij_strahl](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/48699068/02d6898f-ec40-4fbc-a418-4f5a9f6afa68)|
 | NOWAK | ![qi](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/48699068/47fb3c06-7239-4a3b-8a04-9335c9dfa8b4) | ![zij_nowak](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/48699068/515fad88-73ab-4ace-ae7a-568b3e387917) |
 
-
-
+Źródło: opracowanie własne, gdzie $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - wartość unormowana j-tej cechy dla i-tego obiektu; $\overline{x_{j}}$ - średnia arytmetyczna j-tej cechy; $S_{j}$ - odchylenie standardowe j-tej cechy; $Q_{i}$ - wartość cechy syntetycznej dla i-tego obiektu
 
 
 
