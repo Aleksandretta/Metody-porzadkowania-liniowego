@@ -1,15 +1,15 @@
 import pandas as pd
 
 # Wczytanie danych z arkusza kalkulacyjnego Excela
-df = pd.read_excel('porownanie_metod_bez_pozycyjnej.xlsx', sheet_name='k_sasiadow')
+df = pd.read_excel('INPUT_RANKINGI.xlsx')
 
 # Usunięcie kolumny "Country" przed obliczeniem korelacji
 df.drop(columns=['Country'], inplace=True)
 
 # Mapowanie nazw kolumn
 column_mapping = {
-    'Rank_topsis_k_sasiadow': 'Topsis',
     'Rank_hellwig_k_sasiadow': 'Hellwig',
+    'Rank_topsis_k_sasiadow': 'Topsis',
     'Rank_topsis_unitaryzacja_k_sasiadow': 'Topsis_u',
     'Rank_ssw_k_sasiadow': 'SSW',
     'Rank_nowak_k_sasiadow': 'NOWAK',
@@ -23,8 +23,4 @@ df.rename(columns=column_mapping, inplace=True)
 correlation_matrix = df.corr()
 
 # Zapisz macierz korelacji do pliku CSV
-correlation_matrix.to_csv('macierz_korelacji.csv', index=False)
-
-# Drukuj macierz korelacji
-print("Macierz korelacji:")
-print(correlation_matrix)
+correlation_matrix.to_csv('MACIERZ_KORELACJI_INPUT_k_sasiadow.csv', index=False)
