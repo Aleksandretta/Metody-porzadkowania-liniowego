@@ -216,10 +216,10 @@ link do przykładowego wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Por�
 ![porownanie_metod_k_sasiadow_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/d542d0e2-7b00-4043-9243-ea66eef89d91)
 
 **Wykres 5.3** *Porównanie rankingów państw AFG-COD wyliczone przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [bar_boxplot_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg)
-![porownanie_metod_bar_boxplot_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/9c47ab9c-9017-462a-8eb6-74314ba4ccac)
+![porownanie_metod_bar_boxplot_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/b0ece9ec-b0bb-4a81-b2bd-d28416511a2d)
 
 **Wykres 5.4** *Porównanie rankingów państw AFG-COD wyliczone przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [bar_k_sasiadow_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sas_AFG-COD.jpg)
-![porownanie_metod_bar_k_sasiadow_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/a1ee07e6-c569-462f-8229-03410b0fb147)
+![porownanie_metod_bar_k_sasiadow_AFG_COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/6150820e-04b7-478e-8c1e-d978a5a7c532)
 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu porównania rankingów obliczonych przy pomocy różnych metod porządkowania liniowego obiektów, przygotowano macierze korelacji metod porządkowania liniowego obiektów odpowiednio dla analiz przeprowadzonych na danych przybliżanych metodą winsoryzacji (Wykres 5.3) oraz metodą k-sąsiadów (k=5) (Wykres 5.4).
 
