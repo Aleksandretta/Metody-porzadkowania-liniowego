@@ -13,7 +13,7 @@
 ## 1. Streszczenie
 (max. 150 słów)
 
-## Słowa kluczowe: 
+### Słowa kluczowe: 
 
 ## 2. Wprowadzenie
 
