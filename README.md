@@ -23,7 +23,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Celem badania jest opracowanie rankingów krajów na świecie oraz jednostek terytorialnych (wysp, archipelagów itd.) oraz porównanie ich ze sobą na podstawie różnych wskaźników zdrowia, demografii i warunków sanitarnych, wykorzystując metody porządkowania liniowego, takie jak metoda Hellwiga, TOPSIS, STRAHL, SSW, Pozycyjna.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Zakres badania obejmuje analizę danych z The World Bank, z bazy danych: Health Nutrition and Population, z 2016 roku.
+Zakres badania obejmuje analizę danych z <a href="https://data.worldbank.org/" target="_blank">The World Bank</a>, z bazy danych: <a href="https://databank.worldbank.org/source/health-nutrition-and-population-statistics" target="_blank">Health, Nutrition and Population</a>, z 2016 roku.
 </br>
 
 ### 3.2 Przegląd literatury
