@@ -39,7 +39,7 @@ Podczas procesu tworzenia rankingów państw wykorzystano kryterium merytoryczne
 
 | Zmienna                                                      | Uzasadnienie | Typ zmiennej     |
 |--------------------------------------------------------------|--------------|------------------|
-| Adolescent fertility rate (births per 1,000 women ages 15-19)| Dzietność ogólna ma kluczowe znaczenie dla kształtowania struktury populacji oraz zapewnienia równowagi demograficznej. | stymulanta (s)   |
+| Adolescent fertility rate (births per 1,000 women ages 15-19)| Dzietność wśród nastolatków jest istotna ze względu na jej związek z reprodukcyjnym zdrowiem kobiet oraz wpływ na stabilność społeczeństwa i rozwój gospodarczy. | stymulanta (s)   |
 | Fertility rate, total                                        | Dzietność ogólna ma kluczowe znaczenie dla kształtowania struktury populacji oraz zapewnienia równowagi demograficznej. | stymulanta (s)   |
 | Birth rate, crude                                            | Wskaźnik urodzeń informuje o liczbie urodzeń w populacji i jest kluczowym miernikiem dynamiki demograficznej. | stymulanta (s)   |
 | Life expectancy at birth total                               | Oczekiwana długość życia jest istotnym wskaźnikiem zdrowia i jakości życia w społeczeństwie. Wysoka oczekiwana długość życia świadczy o skuteczności systemu opieki zdrowotnej oraz poziomie rozwoju społecznego i ekonomicznego. | stymulanta (s)   |
