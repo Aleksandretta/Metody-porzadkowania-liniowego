@@ -21,7 +21,7 @@
 
 ### 3.1 Cel i zakres badania
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Celem badania jest opracowanie rankingów krajów na świecie oraz jednostek terytorialnych (wysp, archipelagów itd.) oraz porównanie ich ze sobą na podstawie różnych wskaźników zdrowia, demografii i warunków sanitarnych, wykorzystując metody porządkowania liniowego, takie jak metoda Hellwiga i TOPSIS. Zakres badania obejmuje analizę danych z The World Bank, z bazy danych: Health Nutrition and Population, z 2016 roku, z uwzględnieniem cech diagnostycznych poddanych metodzie k-najbliższych sąsiadów oraz przybliżonych boxplotem. 
+Celem badania jest opracowanie rankingów krajów na świecie oraz jednostek terytorialnych (wysp, archipelagów itd.) oraz porównanie ich ze sobą na podstawie różnych wskaźników zdrowia, demografii i warunków sanitarnych, wykorzystując metody porządkowania liniowego, takie jak metoda Hellwiga, TOPSIS, STRAHL, SSW, Pozycyjna. Zakres badania obejmuje analizę danych z The World Bank, z bazy danych: Health Nutrition and Population, z 2016 roku, z uwzględnieniem cech diagnostycznych poddanych metodzie k-najbliższych sąsiadów oraz przybliżonych boxplotem. 
 </br>
 
 ### 3.2 Przegląd literatury
