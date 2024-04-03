@@ -245,7 +245,7 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 
 Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy metody k-sąsiadów (k=5), najbardziej skorelowana z pozostałymi metodami jest metoda SSW.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ostatecznie, kraje zostały podzielone na cztery grupy względem wysokości badanych wskaźników zdrowia, dla danych przybliżonych metodą winsoryzacji oraz dla danych przybliżonych metodą k-sąsiadów została wykorzystana wartość miernika syntetycznego (qi) obliczona metodą SSW, przy czym:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ostatecznie, kraje zostały podzielone na cztery grupy względem wysokości badanych wskaźników zdrowia. Dla danych przybliżonych metodą winsoryzacji ostała wykorzystana wartość miernika syntetycznego (qi) obliczona metodą STRAHL, zaś dla danych przybliżonych metodą k-sąsiadów została wykorzystana wartość miernika syntetycznego (qi) obliczona metodą SSW, przy czym:
 
 | Numer grupy | Opis                 | Wzór      |
 |-------------|----------------------|-----------|
