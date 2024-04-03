@@ -209,25 +209,25 @@ link do przykładowego wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Por�
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy sieciowe porównujące rankingi w zależności od użytej metody obsłużenia outlierów (winsoryzacja bądź metoda LOF i k-sąsiadów) w obrębie jednej metody porządkowania liniowego są dostępne w folderze Metody_porządkowania_liniowego w folderze dedykowanym danej metodzie: link do wykresu sieciowego porównującego wyniki analizy: [Hellwig_radar](Projekt/Metody_porządkowania_liniowego/Hellwig)
 
-**Obraz 5.1** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [radar_boxplot](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_boxplot_radar.jpg)
-![porownanie_metod_boxplot_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/fc54bc49-6394-431f-85f8-5555d52c07c1)
+**Wykres 5.1** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [radar_boxplot](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_boxplot_radar.jpg)
+![porownanie_metod_boxplot_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/9efd6786-6254-4552-9fe5-6a5e307685e0)
 
-**Obraz 5.2** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [radar k_sasiadow](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_k_sasiadow_radar.jpg)
-![porownanie_metod_k_sasiadow_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/a2b79ed7-7495-453c-8582-65a220215358)
+**Wykres 5.2** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [radar k_sasiadow](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_k_sasiadow_radar.jpg)
+![porownanie_metod_k_sasiadow_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/d542d0e2-7b00-4043-9243-ea66eef89d91)
 
-**Wykres 5.1** *Porównanie rankingów państw AFG-COD wyliczone przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [bar_boxplot_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg)
+**Wykres 5.3** *Porównanie rankingów państw AFG-COD wyliczone przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [bar_boxplot_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg)
 ![porownanie_metod_bar_boxplot_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/9c47ab9c-9017-462a-8eb6-74314ba4ccac)
 
-**Wykres 5.2** *Porównanie rankingów państw AFG-COD wyliczone przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [bar_k_sasiadow_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sas_AFG-COD.jpg)
+**Wykres 5.4** *Porównanie rankingów państw AFG-COD wyliczone przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [bar_k_sasiadow_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sas_AFG-COD.jpg)
 ![porownanie_metod_bar_k_sasiadow_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/a1ee07e6-c569-462f-8229-03410b0fb147)
 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu porównania rankingów obliczonych przy pomocy różnych metod porządkowania liniowego obiektów, przygotowano macierze korelacji metod porządkowania liniowego obiektów odpowiednio dla analiz przeprowadzonych na danych przybliżanych metodą winsoryzacji (Wykres 5.3) oraz metodą k-sąsiadów (k=5) (Wykres 5.4).
 
-**Wykres 5.3** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji boxplot](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_boxplot.jpg)
+**Wykres 5.5** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji boxplot](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_boxplot.jpg)
 ![macierz_korelacji_rankingow_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/b9dd2f84-68a1-4245-bccf-a9c01c7fa74a)
 
 
-**Wykres 5.4** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji k_sasiadow](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_k_sasiadow.jpg)
+**Wykres 5.6** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji k_sasiadow](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_k_sasiadow.jpg)
 ![macierz_korelacji_rankingow_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/c597a2d8-7bf7-4417-b48b-d45c9af0a6d1)
 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<<<Wnioski z macierzy&&&
@@ -257,9 +257,9 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.5 i 5.6 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających.
 
-**Wykres 5.5** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą winsoryzacji*
+**Wykres 5.7** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą winsoryzacji*
 
-**Wykres 5.6** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą k-sąsiadów (k=5)*
+**Wykres 5.8** *Podział państw na grupy względem miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą k-sąsiadów (k=5)*
 
 
 
