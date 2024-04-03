@@ -131,7 +131,8 @@ link do przykładowego wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Por�
 (opis+ histogramy dla każdej cechy na danych z arkusza "Dane bez braków", boxploty i wykresy LOF wszystko na bazie "Dane bez braków" + odnośniki do kodów i folderów ze zdjęciami: tu można poglądowo wstawić po 2-3)
 
 ## 4. Opis metod porządkowania liniowego
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metody porządkowania liniowego polegają na obliczeniu wskaźnika syntetycznego $Q_{i}$. Im jego wartość jest wyższa, tym wyżej dany kraj uplasuje się w rankingu. </br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Celem metod porządkowania liniowego jest konstrukcja wskaźnika syntetycznego $Q_{i}$.</br> 
+Im jego wartość jest wyższa, tym wyżej dany kraj uplasuje się w rankingu. </br></br>
 **Tabela 3.1** *Wybrane metody porządkowania liniowego obiektów*
 
 | Metoda   | Cecha syntetyczna                                                | Pozostałe wzory                             |
@@ -144,7 +145,9 @@ link do przykładowego wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Por�
 | STRAHL | ![qi](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/48699068/fc12f896-23c5-40ab-9013-69bfe613d9a0)|![zij_strahl](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/48699068/02d6898f-ec40-4fbc-a418-4f5a9f6afa68)|
 | NOWAK | ![qi](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/48699068/47fb3c06-7239-4a3b-8a04-9335c9dfa8b4) | ![zij_nowak](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/48699068/515fad88-73ab-4ace-ae7a-568b3e387917) |
 
-Źródło: opracowanie własne, gdzie $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - wartość unormowana j-tej cechy dla i-tego obiektu; $\overline{x_{j}}$ - średnia arytmetyczna j-tej cechy; $S_{j}$ - odchylenie standardowe j-tej cechy; $Q_{i}$ - wartość cechy syntetycznej dla i-tego obiektu
+Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - wartość unormowana j-tej cechy dla i-tego obiektu; $\overline{x_{j}}$ - średnia arytmetyczna j-tej cechy; $S_{j}$ - odchylenie standardowe j-tej cechy; $Q_{i}$ - wartość cechy syntetycznej dla i-tego obiektu
+
+Żródło: [PRS, 2018](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/tree/main#7-bibliografia)
 
 
 
@@ -266,3 +269,4 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 ## 6. Podsumowanie
 
 ## 7. Bibliografia
+1. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa ĝwiatowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie 
