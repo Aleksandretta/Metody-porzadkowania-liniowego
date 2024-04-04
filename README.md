@@ -158,11 +158,12 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 
 
 ## 5. Rezultaty
+### 5.1 Wyniki w postaci tabelarycznej
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wartości miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom (na danych przybliżanych metodą winsoryzacji) przez metody porządkowania liniowego (Hellwig, TOPSIS, TOPSIS_u, SWW, NOWAK, MUZ, STRAHL) zostały przedstawione w postaci tabelarycznej w tabeli 5.1. </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyświetlanie wyników ograniczono do krajów na pierwszych 10 pozcjach oraz 5 ostatnich pozycjach w danej metodzie. Pełne wyniki w postaci tabelarycznej znajdują się pod linkiem: [(Excel, arkusz "Porównanie państw")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=aubdEd&nav=MTVfe0VEMUE0RDcyLUZGNDQtNDgxNi04QTQyLThFNTFFNzVBMEE4NX0) </br>
 
-**Tabela 5.1** *Wartość miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom przez różne metody porządkowania liniowego (na danych przybliżanych metodą winsoryzacji)*
+**Tabela 5.1.1** *Wartość miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom przez różne metody porządkowania liniowego (na danych przybliżanych metodą winsoryzacji)*
 </br>
 | Jednostka terytorialna   | qi     | Rank_Hellwig | Jednostka terytorialna   | qi    | Rank_TOPSIS | Jednostka terytorialna   | qi    | Rank_TOPSIS_u | Jednostka terytorialna   | qi     | Rank_SSW | Jednostka terytorialna   | qi     | Rank_NOWAK | Jednostka terytorialna   | qi    | Rank_MUZ | Jednostka terytorialna   | qi     | Rank_STRAHL |
 |--------------------------|--------|--------------|--------------------------|-------|-------------|--------------------------|-------|---------------|--------------------------|--------|----------|--------------------------|--------|------------|--------------------------|-------|----------|--------------------------|--------|-------------|
@@ -185,7 +186,7 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wartości miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom (na danych przybliżanych metodą k-sąsiadów) przez metody porządkowania liniowego (Hellwig, TOPSIS, SWW, NOWAK, STRAHL) zostały przedstawione w postaci tabelarycznej w tabeli 5.2. </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyświetlanie wyników ograniczono do krajów na pierwszych 10 pozcjach oraz 5 ostatnich pozycjach w danej metodzie. Pełne wyniki w postaci tabelarycznej znajdują się pod linkiem: [(Excel, arkusz "Porównanie państw")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=aubdEd&nav=MTVfe0VEMUE0RDcyLUZGNDQtNDgxNi04QTQyLThFNTFFNzVBMEE4NX0) </br>
 
-**Tabela 5.2** *Wartość miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom przez różne metody porządkowania liniowego (na danych przybliżanych metodą k-sąsiadów (k=5)*
+**Tabela 5.1.2** *Wartość miernika syntetycznego (qi) oraz ranking (rank) przyporządkowane krajom przez różne metody porządkowania liniowego (na danych przybliżanych metodą k-sąsiadów (k=5)*
 </br>
 
 | Jednostka terytorialna   | qi     | Hellwig_Rank | Jednostka terytorialna   | qi    | Rank_TOPSIS | Jednostka terytorialna   | qi    | Rank_TOPSIS_u | Jednostka terytorialna   | qi     | Rank_SSW | Jednostka terytorialna   | qi     | Rank_NOWAK | Jednostka terytorialna   | qi    | Rank_MUZ | Jednostka terytorialna   | qi     | Rank_STRAHL |
@@ -207,22 +208,26 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 | Central African Republic | -0,078 | 185          | Somalia                  | 0,364 | 185         | Somalia                  | 0,377 | 185           | Central African Republic | -1,066 | 185      | Central African Republic | -0,670 | 185        | Lesotho                  | 0,344 | 185      | Somalia                  | -0,133 | 185         |
 | Somalia                  | -0,083 | 186          | Lesotho                  | 0,347 | 186         | Lesotho                  | 0,356 | 186           | Somalia                  | -1,072 | 186      | Somalia                  | -0,740 | 186        | Central African Republic | 0,341 | 186      | Central African Republic | -0,134 | 186         |
 
+### 5.2 Wyniki w postaci graficznej
+
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graficzne przedstawienie różnic w rankingach państw (zarówno na danych przybliżonych za pomocą metody winsoryzacji, jak również danych przybliżonych metodą k-sąsiadów) zostało sporządzone w postaci wykresów sieciowych (Obraz 5.1 oraz Obraz 5.2) oraz dla lepszego zilustrowania różnic w rankingach konkretnego kraju w postaci wykresów słupkowych (Wykres 5.1 oraz Wykres 5.2). </br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wszystkie wykresy słupkowe są dostępne w folderze boxplot_bar: link do przykładowego wykresu: [boxplot_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg) oraz w folderze k_sasiadow_bar: link do przykładowego wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sas_AFG-COD.jpg.jpg)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy sieciowe porównujące rankingi w zależności od użytej metody obsłużenia outlierów (winsoryzacja bądź metoda k-sąsiadów) w obrębie jednej metody porządkowania liniowego są dostępne w folderze [Metody_porządkowania_liniowego](Projekt/Metody_porządkowania_liniowego) w folderze dedykowanym danej metodzie: link do wykresu sieciowego porównującego wyniki analizy: [Hellwig_radar](Projekt/Metody_porządkowania_liniowego/Hellwig)
 
-**Wykres 5.1** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [radar_boxplot](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_boxplot_radar.jpg)
+**Wykres 5.2.1** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [radar_boxplot](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_boxplot_radar.jpg)
 ![porownanie_metod_boxplot_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/9efd6786-6254-4552-9fe5-6a5e307685e0)
 
-**Wykres 5.2** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [radar k_sasiadow](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_k_sasiadow_radar.jpg)
+**Wykres 5.2.2** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [radar k_sasiadow](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_k_sasiadow_radar.jpg)
 ![porownanie_metod_k_sasiadow_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/d542d0e2-7b00-4043-9243-ea66eef89d91)
 
-**Wykres 5.3** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [bar_boxplot_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_boxplot_AFG-COD.jpg)
+**Wykres 5.2.3** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [bar_boxplot_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_boxplot_AFG-COD.jpg)
 ![porownanie_metod_bar_boxplot_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/b0ece9ec-b0bb-4a81-b2bd-d28416511a2d)
 
-**Wykres 5.4** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [bar_k_sasiadow_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sasiadow_AFG_COD.jpg)
+**Wykres 5.2.4** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [bar_k_sasiadow_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sasiadow_AFG_COD.jpg)
 ![porownanie_metod_bar_k_sasiadow_AFG_COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/6150820e-04b7-478e-8c1e-d978a5a7c532)
+
+### 5.3 Porównanie uzyskanych wyników
 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu porównania rankingów obliczonych przy pomocy różnych metod porządkowania liniowego obiektów, przygotowano macierze korelacji metod porządkowania liniowego obiektów odpowiednio dla analiz przeprowadzonych na danych przybliżanych metodą winsoryzacji (Wykres 5.3) oraz metodą k-sąsiadów (k=5) (Wykres 5.4). Wartości podane w macierzach są wartościami współczynnika korelacji Pearsona.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Współczynnik korelacji Pearsona ($P_{xy}$) pozwala określić poziom oraz kierunek korelacji między dwoma zestawami danych (Rąklewski, 2020).
@@ -240,19 +245,19 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $0.6 < |P_{xy}| \leq 0.8$ są interpretowane jako silna korelacja
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $0.8 < |P_{xy}| \leq 1.0$ są interpretowane jako bardzo silna korelacja
 
-**Wykres 5.5** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji boxplot](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_boxplot.jpg)
+**Wykres 5.3.1** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji boxplot](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_boxplot.jpg)
 ![macierz_korelacji_rankingow_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/b9dd2f84-68a1-4245-bccf-a9c01c7fa74a)
 
 
-**Wykres 5.6** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji k_sasiadow](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_k_sasiadow.jpg)
+**Wykres 5.3.2** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji k_sasiadow](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_k_sasiadow.jpg)
 ![macierz_korelacji_rankingow_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/c597a2d8-7bf7-4417-b48b-d45c9af0a6d1)
 
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<<<Wnioski z macierzy&&&
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W przypadku obu analiz, najniższy współczynnik korelacji Pearsona wyniósł 0.8. Dla danych, w których oberwacje odstające zostały obsłużone metodą winsoryzacji, współczynnik Pearsona między rankingami Hellwiga i MUZ wyniósł 0.8. Dla danych, w których oberwacje odstające zostały obsłużone metodą k-sąsiadów, współczynnik Pearsona między rankingami Hellwiga i NOWAK wyniósł 0.8. 
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wartość współczynnika 0.8 jest wartością graniczną między silną korelacją a bardzo silną korelacją, zatem można uznać, że wszystkie metody porządkowania liniowego rozważane w analizie (Hellwig, TOPSIS, TOPSIS (z unitaryzacją), SSW, NOWAK, MUZ, STRAHL) prowadzą do uzyskania bardzo podobnych, a zatem porównywalnych rankingów państw na świecie względem rozważanych wskaźników zdrowia.
 
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu zidentyfikowania metody porządowania liniowego obiektów najbardziej skorelowanej z pozostałymi metodami utworzono wektory z uśrednionym skorelowaniem danej metody względem pozostałych (u_winsor i u_k_sas) dla obu metod obsłużenia obserwacji odstających (link do programu: [wektor_korelacji](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/wektor_korelacji.txt)). 
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu zidentyfikowania metody porządowania liniowego obiektów najbardziej skorelowanej z pozostałymi metodami (w obrębie danej metody obsłużenia wartości odstających) utworzono wektory z uśrednionym skorelowaniem danej metody względem pozostałych - odpowiednio u_winsor i u_k_sas.
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Współrzędne wektorów odpowiadają metodom porządkowania liniowego zgodnie z kolejnością w tabeli 4.1. Im wyższa wartość danej współrzędnej, tym mocniej skorelowana jest dana metoda porządkowania liniowego z pozostałymi metodami (link do programu: [wektor_korelacji](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/wektor_korelacji.txt)). 
 </br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Współrzędne wektorów odpowiadają metodom porządkowania liniowego zgodnie z kolejnością w tabeli 4.1.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **u_winsor = [0.863, 0.958, 0.975, 0.979, 0.951, 0.971, 0.979]**
 
@@ -262,7 +267,11 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 
 Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy metody k-sąsiadów (k=5), najbardziej skorelowana z pozostałymi metodami jest metoda SSW.
 
+### 5.4 Podział krajów na grupy
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ostatecznie, kraje zostały podzielone na cztery grupy względem wysokości badanych wskaźników zdrowia. Dla danych przybliżonych metodą winsoryzacji ostała wykorzystana wartość miernika syntetycznego (qi) obliczona metodą STRAHL, zaś dla danych przybliżonych metodą k-sąsiadów została wykorzystana wartość miernika syntetycznego (qi) obliczona metodą SSW, przy czym:
+
+**Tabela 5.4.1** *Numery grupy, opis oraz wzór do przyporządkowania grupy danemu krajowi w zależności od wartości wskaźnika syntetycznego (qi)*
 
 | Numer grupy | Opis                 | Wzór      |
 |-------------|----------------------|-----------|
@@ -272,12 +281,12 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 | 4           | niski poziom         | ![CodeCogsEqn4](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/7ee34c4c-2a94-45d8-a9fa-a4d91db66e0c)          |
 |             | oraz:                | ![CodeCogsEqn5](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/4d352c16-85f8-4ac5-aab0-cacc4e52a0d1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.7 i 5.8 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze [Podział_krajów_na_grupy](Projekt/Porównania_analiz/Podział_krajów_na_grupy)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.4.1 i 5.4.2 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze [Podział_krajów_na_grupy](Projekt/Porównania_analiz/Podział_krajów_na_grupy)
 
-**Wykres 5.7** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą winsoryzacji*
+**Wykres 5.4.1** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą winsoryzacji*
 ![boxplotsuper](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/ba1a6188-14d9-4cd2-9a79-e9bb5b8f90a8)
 
-**Wykres 5.8** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą k-sąsiadów (k=5)*
+**Wykres 5.4.2** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą k-sąsiadów (k=5)*
 ![knajblizszych](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/400ed477-9e93-4c0d-a843-74168401b084)
 
 
@@ -286,4 +295,5 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 ## 6. Podsumowanie
 
 ## 7. Bibliografia
-1. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa ĝwiatowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie 
+1. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa ĝwiatowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie
+2. Ręklewski, M. (2020). "Statystyka opisowa: Teoria i przykłady" (Państwowa Uczelnia Zawodowa we Włocławku), str. 95. ISBN 978-83-60607-93-0.
