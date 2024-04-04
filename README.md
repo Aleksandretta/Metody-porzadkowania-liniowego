@@ -262,7 +262,7 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 | 4           | niski poziom         | ![CodeCogsEqn4](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/7ee34c4c-2a94-45d8-a9fa-a4d91db66e0c)          |
 |             | oraz:                | ![CodeCogsEqn5](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/4d352c16-85f8-4ac5-aab0-cacc4e52a0d1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.5 i 5.6 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.7 i 5.8 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze [Podział_krajów_na_grupy](Projekt/Porównania_analiz/Podział_krajów_na_grupy)
 
 **Wykres 5.7** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą winsoryzacji*
 ![boxplotsuper](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/ba1a6188-14d9-4cd2-9a79-e9bb5b8f90a8)
