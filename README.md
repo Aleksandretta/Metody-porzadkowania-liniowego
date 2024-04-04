@@ -227,15 +227,19 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu porównania rankingów obliczonych przy pomocy różnych metod porządkowania liniowego obiektów, przygotowano macierze korelacji metod porządkowania liniowego obiektów odpowiednio dla analiz przeprowadzonych na danych przybliżanych metodą winsoryzacji (Wykres 5.3) oraz metodą k-sąsiadów (k=5) (Wykres 5.4). Wartości podane w macierzach są wartościami współczynnika korelacji Pearsona.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Współczynnik korelacji Pearsona (P_xy) pozwala określić poziom oraz kierunek korelacji między dwoma zestawami danych (Rąklewski, 2020). </br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kierunek korelacji można odczytać ze znaku "+", co oznacza dodanią korelację lub ze znaku "-" oznaczającego ujemną korelację. </br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wartość współczynnika korelacji Pearsona (P_xy) mieści się w zakresie od [-1, 1], przy czym: </br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wartości brzegowe:
 	wartość -1 jest interpretowana jako korelacja doskonała ujemna,
 	wartość 1 jest interpretowana jako korelacja doskonała dodatnia,
 	wartość 0 jest interpretowana jako brak korelacji
 </br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pozostałe wartości: 
-	0 < |P_{x,y}|≤ 0,2 są interpretowane jako bardzo słaba korelacja
+	$0 < |P_{xy}| \leq 0.2$ są interpretowane jako bardzo słaba korelacja
 	0,2 < |P_xy |≤ 0,4 są interpretowane jako słaba korelacja
 	0,4 < |P_xy |≤ 0,6 są interpretowane jako umiarkowana korelacja
 	0,6 < |P_xy |≤ 0,8 są interpretowane jako silna korelacja
