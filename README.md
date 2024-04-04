@@ -99,6 +99,8 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 | wąs górny       | 57,231                               | 181,922                                 | 198,718                                                           | 3,807                        | 19,858                               | 4927,250                          | 10614,125             | 96,325                                              |
 
 
+
+
 **Tabela 3.4.3.2** *Statystyki opisowe dla danych po winsoryzacji.* [(Excel, arkusz "Dane po winsoryzacji")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=HwFoNB&nav=MTVfezlBQUFBRkVFLUM2NDktNDE2QS05QTJCLTRGREUwNDk2RjQzMH0)
 | Statystyka      | Birth rate, crude (per 1,000 people) | Life expectancy at birth, total (years) | People using at least basic sanitation services (% of population) | Population growth (annual %) | Death rate, crude (per 1,000 people) | Number of deaths ages 20-24 years | Number of stillbirths | Prevalence of hypertension (% of adults ages 30-79) |
 |-----------------|--------------------------------------|-----------------------------------------|-------------------------------------------------------------------|------------------------------|--------------------------------------|-----------------------------------|-----------------------|-----------------------------------------------------|
@@ -115,6 +117,8 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 | IQR             | 17,809                               | 11,785                                  | 44,906                                                            | 1,796                        | 3,142                                | 0,0001189                         | 0,0002981             | 9,800                                               |
 | wąs dolny       | -32,816                              | -50,526                                 | -93,631                                                           | -2,917                       | -7,742                               | -0,0001954                        | -0,0004715            | -31,025                                             |
 | wąs górny       | 57,231                               | 181,922                                 | 198,718                                                           | 3,807                        | 19,858                               | 0,0002639                         | 0,0005691             | 96,325                                              |
+
+
 
 **Tabela 3.4.3.3** *Statystyki opisowe dla danych po imputacji danych metodą k-sąsiadów (k=5).* [(Excel, arkusz "LOF Outliers imputowane")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=frDrNP&nav=MTVfezJCOUIwRDhDLTZENTEtNEY3Ni1BQkMyLTUzN0NENDg0NkVEMX0)
 | Statystyka      | Birth rate, crude (per 1,000 people) | Life expectancy at birth, total (years) | People using at least basic sanitation services (% of population) | Population growth (annual %) | Death rate, crude (per 1,000 people) | Number of deaths ages 20-24 years | Number of stillbirths | Prevalence of hypertension (% of adults ages 30-79) |
