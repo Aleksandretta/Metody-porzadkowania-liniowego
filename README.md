@@ -131,7 +131,7 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 Przykładowy histogram dla dla danych po zastosowaniu algorytmu k_sasiadow
 <img width="500" alt="Screenshot 2024-04-04 at 12 23 51" src="https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/1a2fd220-f1a7-4845-aa86-b6a57aacb4ff">
 
-![Histogramy dla cech dla danych po winsoryzacji](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/30e0608b-a53a-4703-9952-6ef1dde4d00d)
+[Histogramy dla cech dla danych po winsoryzacji](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/30e0608b-a53a-4703-9952-6ef1dde4d00d)
 
 Przykładowy histogram dla dla danych po zastosowaniu winsoryzacji:
 <img width="500" alt="Screenshot 2024-04-04 at 12 24 34" src="https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/e91680b2-106b-401d-b6f5-15572287568b">
