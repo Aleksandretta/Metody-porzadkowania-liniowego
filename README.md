@@ -227,8 +227,7 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 ![porownanie_metod_bar_k_sasiadow_AFG_COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/6150820e-04b7-478e-8c1e-d978a5a7c532)
 
 ### 5.3 Porównanie uzyskanych wyników
-
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu porównania rankingów obliczonych przy pomocy różnych metod porządkowania liniowego obiektów, przygotowano macierze korelacji metod porządkowania liniowego obiektów odpowiednio dla analiz przeprowadzonych na danych przybliżanych metodą winsoryzacji (Wykres 5.3) oraz metodą k-sąsiadów (k=5) (Wykres 5.4). Wartości podane w macierzach są wartościami współczynnika korelacji Pearsona.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu porównania rankingów obliczonych przy pomocy różnych metod porządkowania liniowego obiektów, przygotowano macierze korelacji metod porządkowania liniowego obiektów odpowiednio dla analiz przeprowadzonych na danych przybliżanych metodą winsoryzacji (Wykres 5.3) oraz metodą k-sąsiadów (k=5) (Wykres 5.4). Wartości podane w macierzach są wartościami współczynnika korelacji Pearsona.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Współczynnik korelacji Pearsona ($P_{xy}$) pozwala określić poziom oraz kierunek korelacji między dwoma zestawami danych (Rąklewski, 2020).
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kierunek korelacji można odczytać ze znaku "+", co oznacza dodanią korelację lub ze znaku "-" oznaczającego ujemną korelację.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wartość współczynnika korelacji Pearsona ($P_{xy}$) mieści się w zakresie od [-1, 1], przy czym:
