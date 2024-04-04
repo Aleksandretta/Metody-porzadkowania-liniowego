@@ -124,20 +124,9 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 | skośność     | 0,467                                | -0,219                                  | -0,889                                                            | 0,116                        | 0,980                                | 0,9698453                         | 1,236373              | -0,004                                              |
 
 #### 3.4.4 Podstawowa wizualizacja
-W celu wizualizacji danych początkowych sporządzono histogramy dla każdej z cech:
-
-**Wykres 3.4.4.1** Przykładowy histogram dla dla danych po zastosowaniu algorytmu k_sasiadow:
-
-<img width="500" alt="Screenshot 2024-04-04 at 12 23 51" src="https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/1a2fd220-f1a7-4845-aa86-b6a57aacb4ff">
-
-[Wszystkie histogramy dla cech dla danych po zastosowaniu algorytmu k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/28cefeed-57e8-48bc-bd45-be0ded488ea3)
-
-**Wykres 3.4.4.2** Przykładowy histogram dla dla danych po zastosowaniu winsoryzacji:
-
-<img width="500" alt="Screenshot 2024-04-04 at 12 24 34" src="https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/e91680b2-106b-401d-b6f5-15572287568b">
-
-[Wszystkie histogramy dla cech dla danych po winsoryzacji](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/30e0608b-a53a-4703-9952-6ef1dde4d00d)
-
+W celu wizualizacji danych początkowych sporządzono histogramy dla każdej z cech.
+Wszystkie wykresy historgramów dla pełnych danych bez braków znajdują się w folderze: 
+**Wykres 3.4.4.1** Przykładowy histogram dla dla danych bez braków:
 
 ## 4. Opis metod porządkowania liniowego
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Celem metod porządkowania liniowego jest konstrukcja wskaźnika syntetycznego $Q_{i}$.</br> 
