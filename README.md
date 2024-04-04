@@ -126,7 +126,7 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 #### 3.4.4 Podstawowa wizualizacja
 (opis+ histogramy dla każdej cechy na danych z arkusza "Dane bez braków", boxploty i wykresy LOF wszystko na bazie "Dane bez braków" + odnośniki do kodów i folderów ze zdjęciami: tu można poglądowo wstawić po 2-3)
 
-![Histogramy dla cech dla danych po zastosowaniu algorytmu k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/28cefeed-57e8-48bc-bd45-be0ded488ea3)
+[Histogramy dla cech dla danych po zastosowaniu algorytmu k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/28cefeed-57e8-48bc-bd45-be0ded488ea3)
 
 Przykładowe histogramy dla cech dla danych po zastosowaniu algorytmu k_sasiadow:
 <img width="500" alt="Screenshot 2024-04-04 at 12 15 18" src="https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/092ad747-b04b-493d-828d-0f8f2d3266c2">
