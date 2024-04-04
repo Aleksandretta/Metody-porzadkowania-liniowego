@@ -227,13 +227,13 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy sieciowe porównujące rankingi w zależności od użytej metody obsłużenia outlierów (winsoryzacja bądź metoda k-sąsiadów) w obrębie jednej metody porządkowania liniowego są dostępne w folderze [Metody_porządkowania_liniowego](Projekt/Metody_porządkowania_liniowego) w folderze dedykowanym danej metodzie: link do wykresu sieciowego porównującego wyniki analizy: [Hellwig_radar](Projekt/Metody_porządkowania_liniowego/Hellwig)
 
 **Wykres 5.2.1** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [radar_boxplot](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_boxplot_radar.jpg)
-![porownanie_metod_boxplot_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/9efd6786-6254-4552-9fe5-6a5e307685e0)
+![porownanie_metod_boxplot_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/ce1be261-4d64-4555-9ac3-809ba492cc47)
 
 **Wykres 5.2.2** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [radar k_sasiadow](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_k_sasiadow_radar.jpg)
 ![porownanie_metod_k_sasiadow_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/d542d0e2-7b00-4043-9243-ea66eef89d91)
 
 **Wykres 5.2.3** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [bar_boxplot_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_boxplot_AFG-COD.jpg)
-![porownanie_metod_bar_boxplot_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/b0ece9ec-b0bb-4a81-b2bd-d28416511a2d)
+![porownanie_metod_bar_boxplot_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/09875dad-3421-4d0e-9e2f-da71e95d314f)
 
 **Wykres 5.2.4** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [bar_k_sasiadow_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sasiadow_AFG_COD.jpg)
 ![porownanie_metod_bar_k_sasiadow_AFG_COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/6150820e-04b7-478e-8c1e-d978a5a7c532)
@@ -260,7 +260,7 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 ![macierz_korelacji_rankingow_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/b9dd2f84-68a1-4245-bccf-a9c01c7fa74a)
 
 **Wykres 5.3.2** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji k_sasiadow](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_k_sasiadow.jpg)
-![macierz_korelacji_rankingow_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/c597a2d8-7bf7-4417-b48b-d45c9af0a6d1)
+![macierz_korelacji_rankingow_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/9872ed19-affa-45ab-bc50-d19a4730b9e0)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W przypadku obu analiz, najniższy współczynnik korelacji Pearsona wyniósł 0.8. Dla danych, w których oberwacje odstające zostały obsłużone metodą winsoryzacji, współczynnik Pearsona między rankingami Hellwiga i MUZ wyniósł 0.8. Dla danych, w których oberwacje odstające zostały obsłużone metodą k-sąsiadów, współczynnik Pearsona między rankingami Hellwiga i NOWAK wyniósł 0.8. 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wartość współczynnika 0.8 jest wartością graniczną między silną korelacją a bardzo silną korelacją, zatem można uznać, że wszystkie metody porządkowania liniowego rozważane w analizie (Hellwig, TOPSIS, TOPSIS (z unitaryzacją), SSW, NOWAK, MUZ, STRAHL) prowadzą do uzyskania bardzo podobnych, a zatem porównywalnych rankingów państw na świecie względem rozważanych wskaźników zdrowia.
