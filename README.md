@@ -226,7 +226,7 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu porównania rankingów obliczonych przy pomocy różnych metod porządkowania liniowego obiektów, przygotowano macierze korelacji metod porządkowania liniowego obiektów odpowiednio dla analiz przeprowadzonych na danych przybliżanych metodą winsoryzacji (Wykres 5.3) oraz metodą k-sąsiadów (k=5) (Wykres 5.4). Wartości podane w macierzach są wartościami współczynnika korelacji Pearsona.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Współczynnik korelacji Pearsona ($P_{xy}$) pozwala określić poziom oraz kierunek korelacji między dwoma zestawami danych (Rąklewski, 2020).
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kierunek korelacji można odczytać ze znaku "+", co oznacza dodanią korelację lub ze znaku "-" oznaczającego ujemną korelację. </br>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kierunek korelacji można odczytać ze znaku "+", co oznacza dodanią korelację lub ze znaku "-" oznaczającego ujemną korelację.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wartość współczynnika korelacji Pearsona ($P_{xy}$) mieści się w zakresie od [-1, 1], przy czym:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**wartości brzegowe:**
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wartość -1 jest interpretowana jako korelacja doskonała ujemna,
