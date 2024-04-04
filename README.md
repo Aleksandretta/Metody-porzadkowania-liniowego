@@ -49,13 +49,14 @@ Analiza merytoryczna, kierowana ekonomicznością (koszt zebrania informacji) i 
 ### 3.4 Wstępna analiza danych
 
 #### 3.4.1 Braki danych
-~14% oryginalnych danych (30 na 217 państw) stanowiły braki danych.
-Metodą ich obsłużenia było usunięcie.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W danych oryginalnych zidentyfikowano około 14% brakujących danych (30 na 217 państw). Ze względu na niewielki odsetek brakujących danych, zdecydowano się na usunięcie krajów z brakami danych w dalszej części analizy.
 </br>
 
 #### 3.4.2 Obserwacje odstające
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Winsoryzacja to metoda przetwarzania danych mająca na celu zmniejszenie wpływu wartości odstających na analizę statystyczną. Proces ten polega na zastępowaniu skrajnych wartości (najniższych i najwyższych) wartościami mniej ekstremalnymi. W typowym podejściu wykorzystuje się boxploty do identyfikacji wartości odstających, gdzie wąsy boxplota określają granice. Wartości leżące poza wąsami są uważane za odstające i są zastępowane wartościami na krańcach wąsów lub innymi wartościami bliskimi granicy rozkładu. Procedura ta pomaga w ograniczeniu wpływu ekstremalnych obserwacji na wyniki analizy, zachowując jednocześnie rozmiar próby. W naszych danych zmienne Number of deaths ages 20-24 years AS 5 OF POP oraz Number of stillbirths AS % OF POP zostały policzone jako % populacji.
+Celem ubogacenia analizy porównawczej metod porządkowania liniowego użyto dwóch odrębnych metod radzenia sobie z obserwacjami odstającymi - winsoryzację (przy pomocy wykresów pudełkowych (boxplot)) oraz algorytmiczną metodę Local Outlier Factor (LOF).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Winsoryzacja to metoda przetwarzania danych mająca na celu zmniejszenie wpływu wartości odstających na analizę statystyczną. Proces ten polega na zastępowaniu skrajnych wartości (najniższych i najwyższych) wartościami mniej ekstremalnymi. W typowym podejściu wykorzystuje się boxploty do identyfikacji wartości odstających, gdzie wąsy boxplota określają granice. Wartości leżące poza wąsami są uważane za odstające i są zastępowane wartościami na krańcach wąsów lub innymi wartościami bliskimi granicy rozkładu. Procedura ta pomaga w ograniczeniu wpływu ekstremalnych obserwacji na wyniki analizy, zachowując jednocześnie rozmiar próby. (niepotrzebne ->) W naszych danych zmienne Number of deaths ages 20-24 years AS 5 OF POP oraz Number of stillbirths AS % OF POP zostały policzone jako % populacji.
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykres 3.4.2.1 ilustruje obserwacje odstające wykryte przy użyciu wykresów pudełkowych dla zmiennej Death rate, crude (per 1,000 people). Wszystkie wykresy są dostępne w folderze: [Boxploty](Projekt/Początkowa_obróbka_danych/Boxploty). Wyniki zastąpienia obserwacji odstających metodą winsoryzacji w postaci tabelarycznej są dostępne w arkuszu: [(Excel, arkusz "Dane po winsoryzacji")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=gnTRJm&nav=MTVfezlBQUFBRkVFLUM2NDktNDE2QS05QTJCLTRGREUwNDk2RjQzMH0)
 
