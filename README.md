@@ -134,7 +134,7 @@ Wszystkie wykresy historgramów dla pełnych danych (bez braków) znajdują się
 
 
 ## 4. Opis metod porządkowania liniowego
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Celem metod porządkowania liniowego jest konstrukcja wskaźnika syntetycznego $Q_{i}$. Na podstawie jego wartości jest przyporządkowana liczba w rankingu dla danego kraju. Im wartość $Q_{i}$ jest większa, tym wyższe miejsce w rankingu zostanie przyporządkowane danemu krajowi.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Celem metod porządkowania liniowego jest konstrukcja wskaźnika syntetycznego $Q_{i}$. Wartość wskaźnika syntetycznego $Q_{i}$ decyduje o miejscu danego kraju w rankingu. Im wartość $Q_{i}$ jest większa, tym wyższe miejsce w rankingu zostanie przyporządkowane danemu krajowi.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wszystkie wartości wskaźnika syntetycznego $Q_{i}$ dla każdej metody porządkowania liniowego z uwzględnieniem obu metod obsłużenia obserwacji odstających (winsoryzacja oraz metoda k-sąsiadów) są dostępne w arkuszach dedykowanych danej metodzie w pliku [(Excel)](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=NvaAzV&nav=MTVfe0Q1N0I1MzgyLUVFRjQtNDlFNC04MkZFLTc1NzAwQzQ4NTE5NX0)
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W tabeli 3.1 przedstawiono wszystkie metody porządkowania liniowego obiektów wykorzystane do analizy państw na świecie względem wymienionych wcześniej wskaźników zdrowia.
 
