@@ -31,8 +31,8 @@ Zakres badania obejmuje analizę danych z <a href="https://data.worldbank.org/" 
 ### 3.3 Zmienne wybrane do analizy
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Analiza merytoryczna, kierowana ekonomicznością (koszt zebrania informacji) i interpretowalnością danych, obejmowała ocenę znaczenia poszczególnych wskaźników w kontekście oceny stanu zdrowia, demografii i warunków sanitarnych w poszczególnych państwach. Wybierane były te cechy, które były istotne dla tego obszaru badawczego, takie jak wskaźniki dzietności, wskaźniki umieralności, czy wskaźniki dostępu do podstawowych usług sanitarnych. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zastosowano kryterium statystyczne, koncentrując się na cechach charakteryzujących się odpowiednią zmiennością przyjmując minimalne kryteria współczynnika zmienności (co najmniej 0,1) aby zapewnić reprezentatywność danych (wyniki analizy przedstawione w sekcji 3.4.3 w Tabeli.3.4.3.1). 
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Te działania miały na celu zapewnienie kompleksowej oceny i porównania państw pod kątem różnych aspektów. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zastosowano kryterium statystyczne, koncentrując się na cechach charakteryzujących się odpowiednią zmiennością. Zostało przyjęte minimalne kryterium współczynnika zmienności (co najmniej 0,1), aby zapewnić reprezentatywność danych (wyniki analizy przedstawione w sekcji 3.4.3 w Tabeli.3.4.3.1). 
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Te działania miały na celu zapewnienie kompleksowej oceny i porównania państw pod kątem różnych aspektów zdrowia. 
 </br>
 
 | Zmienna                                                      | Uzasadnienie | Typ zmiennej     |
