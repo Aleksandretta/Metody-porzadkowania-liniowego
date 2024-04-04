@@ -1,0 +1,51 @@
+import pandas as pd
+import geopandas as gpd
+from geopandas.datasets import get_path
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
+from matplotlib.patches import Patch
+
+# Wczytaj dane z arkusza kalkulacyjnego Excela
+df = pd.read_excel('INPUT_k_sasiadow_kraje.xlsx')
+
+# Oblicz R
+max_qi = df['ssw_qi'].max()
+min_qi = df['ssw_qi'].min()
+R = max_qi - min_qi
+
+# Podziel kraje na grupy
+group1 = df[(df['ssw_qi'] >= max_qi - 0.25 * R) & (df['ssw_qi'] < max_qi)]
+group2 = df[(df['ssw_qi'] > max_qi - 0.5 * R) & (df['ssw_qi'] <= max_qi - 0.25 * R)]
+group3 = df[(df['ssw_qi'] > max_qi - 0.75 * R) & (df['ssw_qi'] <= max_qi - 0.5 * R)]
+group4 = df[(df['ssw_qi'] >= min_qi) & (df['ssw_qi'] <= max_qi - 0.75 * R)]
+
+# Wczytaj mapę świata
+world = gpd.read_file(get_path('naturalearth_lowres'))
+
+# Utwórz słownik kolorów dla grup
+colors_dict = {1: '#89CFF0', 2: '#0096FF', 3: '#0000FF', 4: '#0047AB'}
+
+# Utwórz kolumnę 'group' w każdej grupie
+group1['group'] = 1
+group2['group'] = 2
+group3['group'] = 3
+group4['group'] = 4
+
+# Połącz grupy w jedną ramkę danych
+all_groups = pd.concat([group1, group2, group3, group4])
+
+# Połącz ramkę danych z mapą świata
+world = world.merge(all_groups, how='left', left_on='name', right_on='Jednostka terytorialna')
+
+# Utwórz wykres mapy świata
+fig, ax = plt.subplots(1, 1, figsize=(15, 10))
+world.plot(column='group', cmap=ListedColormap(list(colors_dict.values())), ax=ax, legend=False, missing_kwds={'color': '#E4F6F8'})
+plt.title('Podział krajów na grupy metodą SSW')
+
+# Utwórz legendę zgodnie z grupami kolorów
+legend_elements = [Patch(facecolor=color, edgecolor='black', label=f'Grupa {group}') for group, color in colors_dict.items()]
+legend_elements.append(Patch(facecolor='#E4F6F8', edgecolor='black', label='Nieklasyfikowane'))
+ax.legend(handles=legend_elements, loc='lower left', title='Legenda')
+
+# Zapisz wykres do pliku
+plt.savefig('MAPA_SSW_final.png', dpi=350, bbox_inches='tight')
