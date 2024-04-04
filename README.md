@@ -64,11 +64,11 @@ link do przykładowego wykresu: [boxplot_bar](Projekt/Porównania_analiz/Porówn
 
 [Folder BOXPLOT](Projekt/Początkowa_obróbka_danych/Boxploty)
 
-**Wykres 3.4.2.1** *Obserwacje odstające wykryte przez algorytm LOF dla zmiennej Population growth (annual %). Wszystkie wykresy są dostępne w folderze: [Local_Outlier_Factor](Projekt/Początkowa_obróbka_danych/Local_Outlier_Factor) 
-![Population growth (annual %)_outliers](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/6419b139-dd0b-49cd-a06f-920900ebbbb3)*
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Algorytm LOF (Local Outlier Factor) służy do wykrywania obserwacji odstających w danych. Działa poprzez porównanie lokalnej gęstości danej obserwacji z lokalną gęstością jej sąsiadów. Obserwacje o znacząco niższej gęstości niż ich sąsiedzi są uznawane za odstające. Wartość LOF bliska 1 oznacza obserwację typową, natomiast wartości znacząco większe od 1 wskazują na obserwacje odstające.
+
+**Wykres 3.4.2.1** *Obserwacje odstające wykryte przez algorytm LOF dla zmiennej Population growth (annual %). Wszystkie wykresy są dostępne w folderze: [Local_Outlier_Factor](Projekt/Początkowa_obróbka_danych/Local_Outlier_Factor) 
+![Population growth (annual %)_outliers](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/6419b139-dd0b-49cd-a06f-920900ebbbb3)*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k najbliższych sąsiadów obserwacji do uzupełnienia brakujących danych. Dla każdej obserwacji z brakującymi wartościami, algorytm znajduje k najbliższych sąsiadów (opartych na dostępnych cechach) i uzupełnia brakujące wartości na podstawie wartości tych sąsiadów. W tym przypadku, k=5 zostało wybrane jako optymalna liczba sąsiadów, zapewniająca dobry kompromis między dokładnością a złożonością obliczeniową.
