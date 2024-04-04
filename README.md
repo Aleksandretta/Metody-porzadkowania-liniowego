@@ -98,8 +98,7 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 | wąs dolny       | -32,816                              | -50,526                                 | -93,631                                                           | -2,917                       | -7,742                               | -4627,750                         | -10230,625            | -31,025                                             |
 | wąs górny       | 57,231                               | 181,922                                 | 198,718                                                           | 3,807                        | 19,858                               | 4927,250                          | 10614,125             | 96,325                                              |
 
-
-
+</br>
 
 **Tabela 3.4.3.2** *Statystyki opisowe dla danych po winsoryzacji.* [(Excel, arkusz "Dane po winsoryzacji")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=HwFoNB&nav=MTVfezlBQUFBRkVFLUM2NDktNDE2QS05QTJCLTRGREUwNDk2RjQzMH0)
 | Statystyka      | Birth rate, crude (per 1,000 people) | Life expectancy at birth, total (years) | People using at least basic sanitation services (% of population) | Population growth (annual %) | Death rate, crude (per 1,000 people) | Number of deaths ages 20-24 years | Number of stillbirths | Prevalence of hypertension (% of adults ages 30-79) |
@@ -118,7 +117,7 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 | wąs dolny       | -32,816                              | -50,526                                 | -93,631                                                           | -2,917                       | -7,742                               | -0,0001954                        | -0,0004715            | -31,025                                             |
 | wąs górny       | 57,231                               | 181,922                                 | 198,718                                                           | 3,807                        | 19,858                               | 0,0002639                         | 0,0005691             | 96,325                                              |
 
-
+</br>
 
 **Tabela 3.4.3.3** *Statystyki opisowe dla danych po imputacji danych metodą k-sąsiadów (k=5).* [(Excel, arkusz "LOF Outliers imputowane")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=frDrNP&nav=MTVfezJCOUIwRDhDLTZENTEtNEY3Ni1BQkMyLTUzN0NENDg0NkVEMX0)
 | Statystyka      | Birth rate, crude (per 1,000 people) | Life expectancy at birth, total (years) | People using at least basic sanitation services (% of population) | Population growth (annual %) | Death rate, crude (per 1,000 people) | Number of deaths ages 20-24 years | Number of stillbirths | Prevalence of hypertension (% of adults ages 30-79) |
@@ -131,6 +130,8 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 | mediana         | 19,592                               | 72,475                                  | 86,868                                                            | 1,346                        | 7,320                                | 0,000                             | 0,000                 | 37,650                                              |
 | skośność        | 0,453                                | -0,212                                  | -0,870                                                            | 0,106                        | 0,979                                | 0,949                             | 1,223                 | -0,015                                              |
 | wsp. zmienności | 0,438                                | 0,099                                   | 0,381                                                             | 0,750                        | 0,298                                | 0,796                             | 0,966                 | 0,154                                               |
+
+</br>
 
 #### 3.4.4 Podstawowa wizualizacja
 W celu wizualizacji danych początkowych sporządzono histogramy dla każdej z cech.
