@@ -126,7 +126,7 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 #### 3.4.4 Podstawowa wizualizacja
 W celu wizualizacji danych początkowych sporządzono histogramy dla każdej z cech.
 
-Wszystkie wykresy historgramów dla pełnych danych (bez braków) znajdują się w folderze: [Histogramy](Metody-porzadkowania-liniowego/Projekt/Początkowa_obróbka_danych/histograms)
+Wszystkie wykresy historgramów dla pełnych danych (bez braków) znajdują się w folderze: [Histogramy](Projekt/Początkowa_obróbka_danych/Histogramy)
 
 **Wykres 3.4.4.1** Histogram dla cechy Prevalence of hypertension(% of adults ages 30-79).
 
