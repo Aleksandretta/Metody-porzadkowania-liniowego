@@ -65,10 +65,8 @@ link do przykładowego wykresu: [boxplot_bar](Projekt/Porównania_analiz/Porówn
 [Folder BOXPLOT](Projekt/Początkowa_obróbka_danych/Boxploty)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Algorytm LOF (Local Outlier Factor) służy do wykrywania obserwacji odstających w danych. Działa poprzez porównanie lokalnej gęstości danej obserwacji z lokalną gęstością jej sąsiadów. Obserwacje o znacząco niższej gęstości niż ich sąsiedzi są uznawane za odstające. Wartość LOF bliska 1 oznacza obserwację typową, natomiast wartości znacząco większe od 1 wskazują na obserwacje odstające.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Wykres 3.4.2.1 ilustruje obserwacje odstające wykryte przez algorytm LOF dla zmiennej Population growth (annual %). Wszystkie wykresy są dostępne w folderze: [Local_Outlier_Factor](Projekt/Początkowa_obróbka_danych/Local_Outlier_Factor) 
+Algorytm LOF (Local Outlier Factor) służy do wykrywania obserwacji odstających w danych. Działa poprzez porównanie lokalnej gęstości danej obserwacji z lokalną gęstością jej sąsiadów. Obserwacje o znacząco niższej gęstości niż ich sąsiedzi są uznawane za odstające. Wartość LOF bliska 1 oznacza obserwację typową, natomiast wartości znacząco większe od 1 wskazują na obserwacje odstające. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykres 3.4.2.1 ilustruje obserwacje odstające wykryte przez algorytm LOF dla zmiennej Population growth (annual %). Wszystkie wykresy są dostępne w folderze: [Local_Outlier_Factor](Projekt/Początkowa_obróbka_danych/Local_Outlier_Factor) 
 
 **Wykres 3.4.2.1** *Obserwacje odstające wykryte przez algorytm LOF dla zmiennej Population growth (annual %).*
 ![Population growth (annual %)_outliers](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/6419b139-dd0b-49cd-a06f-920900ebbbb3)
