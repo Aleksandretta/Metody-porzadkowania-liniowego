@@ -126,6 +126,12 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 #### 3.4.4 Podstawowa wizualizacja
 (opis+ histogramy dla każdej cechy na danych z arkusza "Dane bez braków", boxploty i wykresy LOF wszystko na bazie "Dane bez braków" + odnośniki do kodów i folderów ze zdjęciami: tu można poglądowo wstawić po 2-3)
 
+![Histogramy dla cech dla danych po zastosowaniu algorytmu k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/28cefeed-57e8-48bc-bd45-be0ded488ea3)
+
+![Histogramy dla cech dla danych po winsaryzacji](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/30e0608b-a53a-4703-9952-6ef1dde4d00d)
+
+
+
 ## 4. Opis metod porządkowania liniowego
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Celem metod porządkowania liniowego jest konstrukcja wskaźnika syntetycznego $Q_{i}$.</br> 
 Im jego wartość jest wyższa, tym wyżej dany kraj uplasuje się w rankingu. </br></br>
