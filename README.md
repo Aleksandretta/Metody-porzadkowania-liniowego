@@ -240,9 +240,6 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 	0,4 < |P_xy |≤ 0,6 są interpretowane jako umiarkowana korelacja
 	0,6 < |P_xy |≤ 0,8 są interpretowane jako silna korelacja
 	0,8 < |P_xy |≤ 1,0 są interpretowane jako bardzo silna korelacja
- </br>
-![image](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/deed35f8-2e38-46f9-8a46-2a43e0164c3a)
-
 
 **Wykres 5.5** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji* link do wykresu: [Macierz korelacji boxplot](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_boxplot.jpg)
 ![macierz_korelacji_rankingow_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/b9dd2f84-68a1-4245-bccf-a9c01c7fa74a)
