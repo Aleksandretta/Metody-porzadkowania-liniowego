@@ -79,7 +79,7 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W ramach wstępnej analizy danych, dla każdej badanej cechy zostały policzone następujące statystyki opisowe: minimum, maksimum, rozstęp (różnica maksimum i minimum), średnia arytmetyczna, odchylenie standardowe, mediana, skośność oraz współczynnik zmienności (iloraz odchylenia standardowego oraz średniej arytmetycznej).
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dodatkowo dla danych oryginalnych oraz danych po winsoryzacji zostały obliczone kwartyl pierwszy, kwartyl trzeci, rozstęp ćwiartkowy (różnica kwartyla trzeciego i kwartyla pierwszego), wąs dolny (kwartyl pierwszy - 1.5 * kwartyl trzeci), wąs górny (kwartyl pierwszy + 1.5 * kwartyl trzeci). Wymienione statystyki opisowe zostały obliczone aby wyliczyć wartości wąsa dolnego i górnego służące do zastąpienia wartości odstających w metodzie winsoryzacji, a także aby pokazać różnice w danych przed i po przeprowadzeniu procesu winsoryzacji.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do wykonania wymienionych wyżej obliczeń wykorzystano wbudowane funkcje w Excelu.
-
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyniki statystyk opisowych tabelaryczne są przedstawione w tabelach 3.4.3.1-3.4.3.3.
 </br>
 
 **Tabela 3.4.3.1** *Statystyki opisowe dla danych oryginalnych (braki danych usunięte) (2016 r.).* [(Excel, arkusz "Dane bez braków")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=7NOE08&nav=MTVfezNFQzlCREU4LUQxMDUtNDQwRC1BQ0JELTE0RDE3N0ZEMkY0NX0)
