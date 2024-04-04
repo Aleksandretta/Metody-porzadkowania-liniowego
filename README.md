@@ -124,7 +124,7 @@ Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k na
 | skośność     | 0,467                                | -0,219                                  | -0,889                                                            | 0,116                        | 0,980                                | 0,9698453                         | 1,236373              | -0,004                                              |
 
 #### 3.4.4 Podstawowa wizualizacja
-(opis+ histogramy dla każdej cechy na danych z arkusza "Dane bez braków", boxploty i wykresy LOF wszystko na bazie "Dane bez braków" + odnośniki do kodów i folderów ze zdjęciami: tu można poglądowo wstawić po 2-3)
+W celu wizualizacji danych początkowych sporządzono histogramy dla każdej z cech:
 
 [Histogramy dla cech dla danych po zastosowaniu algorytmu k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/125165618/28cefeed-57e8-48bc-bd45-be0ded488ea3)
 
