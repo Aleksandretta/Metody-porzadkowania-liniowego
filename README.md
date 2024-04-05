@@ -259,10 +259,11 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Poniżej przedstawiono wektor korelacji metod porządkowania liniowego m_corr dla dwóch różnych metod obchodzenia się z obserwacjami odstającymi (winsoryzacja oraz metoda k-sąsiadów):
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **m_corr = [ 0.89, 0.88, 0.90, 0.89, 0.71, 0.91, 0.85 ]**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **m_corr = [ 0.89, 0.64, 0.90, 0.89, 0.71, 0.91, 0.85 ]**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Współrzędne wektora to korelacje Pearsona danej metody porządkowania liniowego dla obu metod radzenia sobie z obserwacjami odstającymi. Współrzędne wektora odpowiadają kolejności metod w tabeli 4.1, t.j pierwsza współrzędna wektora m_corr wskazuje na korelację rankingu stworzonego przy użyciu metody Hellwiga na danych po winsoryzacji z metodą Hellwiga na danych po zastosowaniu algorytmu k-sąsiadów itd.
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Najniższa korelacja wystąpiła między rankingiem obliczonym przez metodę NOWAK dla danych po winsoryzacji i po zastosowaniu metody k-sąsiadów i wynosi 0.71, co sugeruje, że wybór metody obsłużenia obserwacji odstających miał znaczenie w tej metodzie, jednak 0.71 to wciąż wartość wskaźnika korelacji interpretowana jako silna korelacja, co oznacza, że rankingi są, mimo różnych metod radzenia sobie z oberwacjami odstającymi, bardzo podobne. </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dla pozostałych metod (Hellwig, TOPSIS, TOPSIS_u, SSW, NOWAK, MUZ, STRAHL) wartość wskaźnika korelacji Pearsona można interpretować jako bardzo silne korelacje, co sugeruje, że wybór metody obsłużenia danych odstającyh nie miał wpływu na wyniki rankingu państw obliczonego przy pomocy tych metod.
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Najniższa korelacja wystąpiła między rankingiem obliczonym przez metodę NOWAK (dla danych po winsoryzacji i po zastosowaniu metody k-sąsiadów) i wynosi 0.71, co sugeruje, że wybór metody obsłużenia obserwacji odstających miał znaczenie w tej metodzie. Należy zauważyć, że 0.71 to wciąż wartość wskaźnika korelacji interpretowana jako silna korelacja, co oznacza, że rankingi metody NOWAK są, mimo różnych metod radzenia sobie z oberwacjami odstającymi, bardzo podobne. 
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dla pozostałych metod (Hellwig, TOPSIS, TOPSIS_u, SSW, NOWAK, MUZ, STRAHL) wartość wskaźnika korelacji Pearsona można interpretować jako bardzo silne korelacje (>0.8), co sugeruje, że wybór metody obsłużenia danych odstającyh nie miał wpływu na wyniki rankingu państw obliczonego przy pomocy tych metod.
 
 **Wykres 5.3.1** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą winsoryzacji)* link do wykresu: [Macierz korelacji boxplot](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_boxplot.jpg)
 ![macierz_korelacji_rankingow_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/acf9fd27-dbdc-4f0b-a3fc-65f8fbafe3b3)
@@ -270,23 +271,25 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 **Wykres 5.3.2** *Macierz korelacji metod porządkowania liniowego obiektów względem obliczonych rankingów (dla danych przybliżonych metodą k-sąsiadów)* link do wykresu: [Macierz korelacji k_sasiadow](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/macierz_korelacji_rankingow_k_sasiadow.jpg)
 ![macierz_korelacji_rankingow_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/8750856d-9897-4433-9cd2-a6484282feab)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W przypadku obu analiz, najniższy współczynnik korelacji Pearsona wyniósł 0.81 i 0.8 odpowiednio dla danych przybliżonych metodą winsoryzacji i metodą k-sąsiadów. Dla danych, w których oberwacje odstające zostały obsłużone metodą k-sąsiadów, współczynnik Pearsona między rankingami Hellwiga i NOWAK wyniósł 0.8. 
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wartość współczynnika 0.8 jest wartością graniczną między silną korelacją a bardzo silną korelacją, zatem można uznać, że wszystkie metody porządkowania liniowego rozważane w analizie (Hellwig, TOPSIS, TOPSIS (z unitaryzacją), SSW, NOWAK, MUZ, STRAHL) prowadzą do uzyskania bardzo podobnych, a zatem porównywalnych rankingów państw na świecie względem rozważanych wskaźników zdrowia.
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu zidentyfikowania metody porządowania liniowego obiektów najbardziej skorelowanej z pozostałymi metodami (w obrębie danej metody obsłużenia wartości odstających) utworzono wektory z uśrednionym skorelowaniem danej metody względem pozostałych - odpowiednio u_winsor i u_k_sas.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W przypadku obu analiz, najniższy współczynnik korelacji Pearsona wyniósł 0.79 i 0.77 odpowiednio dla danych przybliżonych metodą winsoryzacji i metodą k-sąsiadów. Dla danych, w których oberwacje odstające zostały obsłużone metodą winsoryzacji współczynnik Pearsona między rankingami Hellwiga i TOPSIS wyniósł 0.79. Dla danych, w których oberwacje odstające zostały obsłużone metodą k-sąsiadów, współczynnik Pearsona między rankingami Hellwiga i NOWAK wyniósł 0.77. 
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Najniższe uzyskane w macierzach korelacji wartości współczynnika Pearsona 0.77 i 0.79 leżą w górnej granicy wartości wskaźnika dla silnej korelacji. Pozostałe wartości leżą albo na granicy wartości wskaźnika dla silnej i bardzo silnej korelacji (0.8 dla korelacji metody Hellwiga i NOWAK (k-sąsiadów)), albo leżą w przedziale bardzo silnej korelacji (>0.8). Zatem, można uznać, że wszystkie metody porządkowania liniowego rozważane w analizie (Hellwig, TOPSIS, TOPSIS (z unitaryzacją), SSW, NOWAK, MUZ, STRAHL) prowadzą do uzyskania bardzo podobnych, a zatem porównywalnych rankingów państw na świecie względem rozważanych w analizie wskaźników zdrowia.
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zarówno w przypadku analizy na danych, gdzie obserwacje odstające zostały zastąpione przy użyciu metody winsoryzacji jak i metody k-sąsiadów, metoda Topsis_u, czyli analiza TOPSIS z normalizacją danych przy użyciu unitaryzacji zamiast dedykowanemu metodzie przekształceniu ilorazowemu, współczynnik korelacji z pozostałymi metodami porządkowania liniowego był wyższy niż w przypadku klasycznej analizy TOPSIS. Uzyskane dane sugerują, że użycie unitaryzacji w metodzie TOPSIS prowadzi do uzyskania rankingu bardziej zbliżonego rankingów proponowanych przez pozostałe metody porządkowania liniowego obiektów.
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autorzy pracy proponują, aby użyć następujących par metod w celu uzyskania niemal identycznych rankingów (korelacja w wysokości 0.99): dla danych po metodzie winsoryzacji: SSW oraz MUZ, dla danych po metodzie k-sąsiadów: TOPSIS (z unitaryzacją) oraz SSW lub równoważnie TOPSIS (z unitaryzacją) oraz MUZ.
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W celu zidentyfikowania metody porządowania liniowego obiektów najbardziej skorelowanej z pozostałymi metodami, w obrębie danej metody obsłużenia wartości odstających, utworzono wektory z uśrednionym skorelowaniem danej metody względem pozostałych - odpowiednio u_winsor i u_k_sas.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Współrzędne wektorów odpowiadają metodom porządkowania liniowego zgodnie z kolejnością w tabeli 4.1. Im wyższa wartość danej współrzędnej, tym mocniej skorelowana jest dana metoda porządkowania liniowego z pozostałymi metodami (link do programu: [wektor_korelacji](Projekt/Porównania_analiz/Macierze_korelacji_rankingów/wektor_korelacji.txt)). 
 </br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **u_winsor = [0.892, 0.962, 0.968, 0.974, 0.937, 0.968, 0.967]**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **u_winsor = [0.864, 0.886, 0.945, 0.947, 0.943, 0.943, 0.958]**
 
-Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy metody winsoryzacji, najbardziej skorelowana z pozostałymi metodami jest metoda SSW.
+Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy metody winsoryzacji, najbardziej skorelowana z pozostałymi metodami jest metoda STRAHL.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **u_k_sas = [0.898, 0.969, 0.974, 0.978, 0.938, 0.977, 0.974]**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **u_k_sas = [0.866, 0.891, 0.947, 0.954, 0.947, 0.952, 0.963]**
 
-Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy metody k-sąsiadów (k=5), najbardziej skorelowana z pozostałymi metodami jest metoda SSW.
+Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy metody k-sąsiadów (k=5), najbardziej skorelowana z pozostałymi metodami jest metoda STRAHL.
 
 ### 5.4 Podział krajów na grupy
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ostatecznie, kraje zostały podzielone na cztery grupy względem wysokości badanych wskaźników zdrowia. Dla danych przybliżonych metodą winsoryzacji oraz dla danych przybliżonych metodą k-sąsiadów została wykorzystana wartość miernika syntetycznego (qi) obliczona metodą SSW, przy czym:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ostatecznie, kraje zostały podzielone na cztery grupy względem wysokości badanych wskaźników zdrowia. Dla danych przybliżonych metodą winsoryzacji oraz dla danych przybliżonych metodą k-sąsiadów została wykorzystana wartość miernika syntetycznego (qi) obliczona metodą STRAHL, przy czym:
 
 **Tabela 5.4.1** *Numery grupy, opis oraz wzór do przyporządkowania grupy danemu krajowi w zależności od wartości wskaźnika syntetycznego (qi)*
 
@@ -301,10 +304,10 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.4.1 i 5.4.2 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze [Podział_krajów_na_grupy](Projekt/Porównania_analiz/Podział_krajów_na_grupy)
 
 **Wykres 5.4.1** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą winsoryzacji (wstaw nowa mape)*
-![boxplotsuper](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/ba1a6188-14d9-4cd2-9a79-e9bb5b8f90a8)
 
-**Wykres 5.4.2** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą SSW dla danych przybliżonych metodą k-sąsiadów (k=5)*
-![knajblizszych](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/400ed477-9e93-4c0d-a843-74168401b084)
+
+**Wykres 5.4.2** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą k-sąsiadów (k=5)*
+
 
 
 
