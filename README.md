@@ -303,10 +303,11 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.4.1 i 5.4.2 ilustrują podział państw na grupy względem miernika syntetycznego (qi) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze [Podział_krajów_na_grupy](Projekt/Porównania_analiz/Podział_krajów_na_grupy)
 
-**Wykres 5.4.1** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą winsoryzacji (wstaw nowa mape)*
-
+**Wykres 5.4.1** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą winsoryzacji*
+![mapa_swiata_podzial_na_grupy_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/429c31a4-1e5a-436d-8bbb-6b68faaea4dd)
 
 **Wykres 5.4.2** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą k-sąsiadów (k=5)*
+![mapa_swiata_podzial_na_grupy_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/37888cfa-cfd4-456b-a012-e9e7b5aaa1f8)
 
 
 
