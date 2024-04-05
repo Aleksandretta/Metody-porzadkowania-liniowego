@@ -1,4 +1,4 @@
-# Analiza porównawcza metod porządkowania liniowego </br> (Hellwiga, TOPSIS, SSW, NOWAK, MUZ, STRAHL) </br> na przykładzie rankingu państw na świecie </br> względem wskaźników zdrowia
+# Analiza porównawcza metod porządkowania liniowego </br> (Hellwiga, TOPSIS, SSW, NOWAK, MUZ, STRAHL) </br> i wpływ metod radzenia sobie </br> z obserwacjami odstającymi: </br> winsoryzację i metodę k-sąsiadów </br> na wartość miernika syntetycznego </br> na przykładzie rankingu państw na świecie </br> względem wskaźników zdrowia
 
 > [!IMPORTANT]
 > Autorzy pracy: </br>
