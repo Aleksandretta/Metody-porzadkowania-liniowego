@@ -318,11 +318,11 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 ## 6. Podsumowanie
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Pierwszym niniejszej analizy było porównanie metod porządkowania liniowego: Hellwiga, TOPSIS, TOPSIS (z unitaryzacją), SSW, NOWAK, MUZ oraz STRAHL względem generowanych przez te metody wskaźników syntetycznych służących do przyporządkowania krajom miejsc w rankingu. Drugim celem analizy było zbadanie wpływu metod wykrywania i obsłużenia obserwacji odstających: metody winsoryzacji za pomocą boxplotów oraz algorytmu Local Outlier Factor za pomocą metody k-sąsiadów na finalne miejsce w rankingach danego kraju. Winsoryzację jak i imputację k-sąsiadów przeprowadzono algorytmiczie.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Metody porządkowania liniowego w przypadku obu metod radzenia sobie z obserwacjami odstającymi wykazują silne bądź bardzo silne skorelowanie z pozostałymi metodami, co sugeruje, że wybór metody porządkowania liniowego nie ma wpływu na finalne miejsce państwa w rankingu. Jednak, dla uzyskania współczynnika skorelowania w wysokości 0.99 zaleca się sporządzenie rankingów SSW i MUZ dla danych po winsoryzacji oraz TOPSIS (z unitaryzacją) i SSW bądź TOPSIS (z unitaryzacją) i MUZ dla danych po imputacji algorytmem k-sąsiadów.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Najniższy poziom skorelowania między rankingiem na danych po winsoryzacji i na danych po zastosowaniu metody k-sąsiadów wykazały metody TOPSIS (0.64) i NOWAK (0.71), co sugerowałoby, że w przypadku tych metod sposób obsłużenia oberwacji odstających miał wpływ na finalne miejsce państwa w rankingu. Jednakże, wskaźnik korelacji Pearsona wynoszący powyżej 0.6 jest interpretowany jako korelacja silna, zatem można stwierdzić, że wybór metody obsłużenia oberwacji odstających w przypadku metod TOPSIS i NOWAK miał niewielki wpływ na rankingi sporządzone przy użyciu tych dwóch metod.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetycznego obliczonego przy pomocy metody STRAHL (dla obu metod obsłużenia wartości odstających). W grupie 1 (o najwyższym poziomie wskaźnika syntetycznego) dominowały kraje (Z TEGO KONTYNENTU), zaś w grupie 4 (o najniższym poziomie wskaźnika syntetycznego) dominowały kraje (Z TEGO KONTYNENTU).
 
 ## 7. Bibliografia
