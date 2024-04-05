@@ -21,7 +21,9 @@
 
 ### 3.1 Cel i zakres badania
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Celem badania jest opracowanie rankingów krajów na świecie oraz jednostek terytorialnych (wysp, archipelagów itd.) oraz porównanie ich ze sobą na podstawie różnych wskaźników zdrowia, demografii i warunków sanitarnych, wykorzystując metody porządkowania liniowego, takie jak metoda Hellwiga, TOPSIS, STRAHL, SSW, Pozycyjna.  
+Celem badania jest porównanie metod porządowania liniowego takich jak metoda Hellwiga, TOPSIS, TOPSIS (z unitaryzacją), SSW, NOWAK, MUZ i STRAHL poprzez opracowanie rankingów krajów na świecie względem wskaźników zdrowia, demografii i warunków sanitarnych. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+W celu poszerzenia analizy badano wpływ metod wykrywania i obsługiwania obserwacji odstających: metodę winsoryzacji przy pomocy boxplotów oraz algorytm Local Outlier Factor przy pomocy metody k-sąsiadów, na wartość wskaźnika syntetycznego generowanego poprzez wyżej wymienione metody porządkowania liniowego obiektów.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Zakres badania obejmuje analizę danych z <a href="https://data.worldbank.org/" target="_blank">The World Bank</a>, z bazy danych: <a href="https://databank.worldbank.org/source/health-nutrition-and-population-statistics" target="_blank">Health, Nutrition and Population</a>, z 2016 roku.
 </br>
@@ -309,11 +311,12 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 **Wykres 5.4.2** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą k-sąsiadów (k=5)*
 ![mapa_swiata_podzial_na_grupy_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/37888cfa-cfd4-456b-a012-e9e7b5aaa1f8)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.4.3 i 5.4.4 ilustrują procentowy udział danego kontynentu w skarnych grupach (grupie 1 oraz grupie 4) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze: ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.4.3 i 5.4.4 ilustrują procentowy udział danego kontynentu w skrajnych grupach (grupie 1 oraz grupie 4) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze: ...
 
 
 
 ## 6. Podsumowanie
+Celem niniejszej analizy było porównanie metod porządkowania liniowego: Hellwiga, TOPSIS, TOPSIS (z unitaryzacją), SSW, NOWAK, MUZ oraz STRAHL względem generowanych przez te metody wskaźników syntetycznych służących do przyporządkowania krajom miejsc w rankingu. Również celem analizy było zbadanie wpływu metod wykrywania i obsłużenia obserwacji odstających: metody winsoryzacji za pomocą boxplotów oraz algorytmu Local Outlier Factor za pomocą metody k-sąsiadów na finalne miejsce w rankingach danego kraju.
 
 ## 7. Bibliografia
 1. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa ĝwiatowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie
