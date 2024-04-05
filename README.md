@@ -311,8 +311,19 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 **Wykres 5.4.2** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą k-sąsiadów (k=5)*
 ![mapa_swiata_podzial_na_grupy_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/37888cfa-cfd4-456b-a012-e9e7b5aaa1f8)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.4.3 i 5.4.4 ilustrują procentowy udział danego kontynentu w skrajnych grupach (grupie 1 oraz grupie 4) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze: ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.4.3 i 5.4.4 ilustrują procentowy udział danego kontynentu w skrajnych grupach (grupie 1 oraz grupie 4) dla danych po winsoryzacji. Wykresy 5.4.5 i 5.4.6 ilustrują procentowy udział danego kontynentu w skrajnych grupach (grupie 1 oraz grupie 4) dla danych po imputacji k-sąsiadów. Wykresy wykonano w Excelu i są one dostępne w arkuszu: [Excel, arkusz "Podział krajów na grupy](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=Y1hjTv&nav=MTVfezhCNkNBN0M5LUQ2QzktNDNFNi1CRTUwLTM3RkZBRjVDNTAxN30) jak również w folderze [Procentowy_udział_kontynentów_w_skrajnych_grupach](Projekt/Porównania_analiz/Procentowy_udział_kontynentów_w_skrajnych_grupach)
 
+**Wykres 5.4.3** *Procentowy udział ilości państw z danego kontynentu w gr.1 dla danych po winsoryzacji*
+![procentowy_udzial_kontynetow_gr1_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/9581470d-2d8c-4f53-8e7a-0be9789303cc)
+
+**Wykres 5.4.4** *Procentowy udział ilości państw z danego kontynentu w gr.4 dla danych po winsoryzacji*
+![procentowy_udzial_kontynetow_gr4_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/d48c68fe-3235-4607-ab72-6a953c805168)
+
+**Wykres 5.4.5** *Procentowy udział ilości państw z danego kontynentu w gr.1 dla danych po imputacji k-sąsiadów*
+![procentowy_udzial_kontynetow_gr1_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/0e8a430f-49c2-45dc-8ce8-eacd530815c2)
+
+**Wykres 5.4.5** *Procentowy udział ilości państw z danego kontynentu w gr.4 dla danych po imputacji k-sąsiadów*
+![procentowy_udzial_kontynetow_gr4_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/740bbaa1-d6a3-4b90-a559-2ba891303937)
 
 
 ## 6. Podsumowanie
