@@ -309,7 +309,7 @@ Dla danych, w których obserwacje odstające zostały obsłużone przy pomocy me
 **Wykres 5.4.2** *Podział państw na grupy względem poziomu miernika syntetycznego (qi) obliczonego metodą STRAHL dla danych przybliżonych metodą k-sąsiadów (k=5)*
 ![mapa_swiata_podzial_na_grupy_k_sasiadow](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/37888cfa-cfd4-456b-a012-e9e7b5aaa1f8)
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy 5.4.3 i 5.4.4 ilustrują procentowy udział danego kontynentu w skarnych grupach (grupie 1 oraz grupie 4) dla obu metod obsłużenia obserwacji odstających. Kod oraz wykresy są dostępne w folderze: ...
 
 
 
