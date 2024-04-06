@@ -46,6 +46,10 @@ Zakres badania obejmuje analizę danych z <a href="https://data.worldbank.org/" 
 </br>
 
 ### 3.2 Przegląd literatury
+Wśród wielu istniejących definicji zdrowia najczęściej podawana i uznawana jest definicja wg WHO, która mówi, że zdrowie to pełen dobrostan fizyczny, psychiczny i społeczny, a nie wyłącznie brak choroby czy niedomagania [3]. W artykule "How should we define health?"[4]  autorzy sugerują, że tradycyjne podejście do zdrowia może być zbyt ograniczone. Według tego podejścia, zdrowie jest rozumiane jako zdolność do realizacji codziennych aktywności i osiągania celów życiowych, niezależnie od obecności lub braku choroby. Ta definicja podkreśla aktywny udział jednostki w społeczeństwie oraz jej zdolność do adaptacji i radzenia sobie z życiowymi wyzwaniami.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Zdrowie zależy od wielu czynników działających na nie w różny sposób i z różną siłą. 
 
 ### 3.3 Zmienne wybrane do analizy
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -369,3 +373,7 @@ Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetyc
 ## 7. Bibliografia
 1. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa ĝwiatowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie
 2. Ręklewski, M. (2020). "Statystyka opisowa: Teoria i przykłady" (Państwowa Uczelnia Zawodowa we Włocławku), str. 95. ISBN 978-83-60607-93-0.
+3. Constitution of the World Health Organization. AM J Public Health Nations Health 1946, 36(11): 1315-1323.
+4. Huber M, Knottnerus JA, Green L, et al. How should we define health? BMJ 2011
+5. Goldsmith S B The status of health status indicators PMID: 4554009 PMCID: PMC1615939
+6. Artur Ostrzyżek  Jerzy T. Marcinkowski, Jakość życia jako pozytywny wskaźnik zdrowia,  Hygeia Public Health 2012; 47 (4) : 408-411
