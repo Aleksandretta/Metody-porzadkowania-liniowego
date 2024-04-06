@@ -11,9 +11,9 @@
 > Zestawienia rankingów państw według danej metody są zaprezentowane najczytelniej w odrębnych arkuszach pliku [Excel](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=Nk8kzL)
 
 ## 1. Streszczenie
-(max. 150 słów)
+Artykuł przedstawia analizę porównawczą różnych metod liniowego porządkowania (Hellwiga, TOPSIS, SSW, NOWAK, MUZ, STRAHL) oraz wpływu technik radzenia sobie z obserwacjami odstającymi (winsoryzacja i metoda k-sąsiadów) na wartość wskaźnika syntetycznego dla rankingu państw według wskaźników zdrowia. Metody zostały zastosowane do opracowania rankingów krajów na świecie, a badania oparto na danych z The World Bank z roku 2016. Analiza ujawniła, że wszystkie metody liniowego porządkowania wykazują silne lub bardzo silne korelacje z pozostałymi, co wskazuje, że wybór metody nie wpływa znacząco na finalne miejsce państwa w rankingu. Najniższe korelacje między metodami (TOPSIS i NOWAK) wskazują jednak na pewien wpływ wyboru techniki obsługi wartości odstających. Ostatecznie, państwa podzielono na cztery grupy w oparciu o wskaźnik syntetyczny obliczony metodą STRAHL, z dominacją krajów Azji w grupie o najwyższych wskaźnikach i krajów Afryki w grupie o najniższych. 
 
-#### Słowa kluczowe: 
+#### Słowa kluczowe: metody porządkowania liniowego, wskaźnik syntetyczny, ranking państw, wskaźniki zdrowia, Hellwig, TOPSIS, SSW, NOWAK, MUZ, STRAHL, winsoryzacja, metoda k-sąsiadów
 
 ## 2. Wprowadzenie
 
