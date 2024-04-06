@@ -18,14 +18,19 @@ Artykuł przedstawia analizę porównawczą różnych metod liniowego porządkow
 ## 2. Wprowadzenie
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Zdrowie ludności jest jednym z najbardziej wymownych wskaźników stanu rozwoju państwa, mając bezpośredni wpływ na produktywność, stabilność społeczną oraz długowieczność obywateli. Dlatego też, monitoring i poprawa zdrowia na poziomie globalnym jest nieodłącznym elementem dążenia do zrównoważonego rozwoju.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Poprzez wielowymiarową analizę danych zdrowotnych, możemy upraszczać złożone relacje i procesy do formy syntetycznych wskaźników. To z kolei umożliwia identyfikację kluczowych czynników wpływających na zdrowie, co jest nieocenione w planowaniu polityk zdrowotnych i alokacji zasobów.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Wskaźniki użyte do oceny stanu zdrowia w różnych krajach zostały wybrane na podstawie ich znaczenia dla demografii i warunków sanitarnych. Obejmują one między innymi wskaźniki dzietności, oczekiwanej długości życia, dostępu do podstawowych usług sanitarnych oraz wskaźniki wzrostu populacji, co pozwala na wszechstronną ocenę warunków zdrowotnych. Wybór opierał się na ekonomiczności i interpretowalności danych, przy jednoczesnym zastosowaniu kryterium statystycznego zmienności dla zapewnienia reprezentatywności. W analizie posłużono się wskaźnikami stymulantami, które mają pozytywny wpływ na zdrowie (jak np. dostęp do sanitariatów), oraz destymulantami negatywnie wpływającymi na zdrowie (jak np. wskaźniki śmiertelności).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Wybór odpowiednich metod porządkowania liniowego był istotny dla właściwej interpretacji zebranych danych. Stosowane techniki, takie jak metoda Hellwiga czy TOPSIS, były dobrane w taki sposób, aby zapewnić nie tylko precyzyjne, ale i możliwie obiektywne wyniki rankingu. Podczas selekcji metod szczególną uwagę zwrócono na ich zdolność do radzenia sobie z obserwacjami odstającymi oraz ich efektywność w kontekście różnorodności i kompleksowości danych zdrowotnych.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Celem pracy jest dogłębna analiza i porównanie wybranych metod porządkowania liniowego w kontekście ich zastosowania do tworzenia rankingów państw na podstawie wskaźników zdrowotnych. Dążymy do określenia, w jakim stopniu wybrane metody radzenia sobie z wartościami odstającymi wpływają na końcowe wyniki.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Przeprowadzone badanie objęło zestawienie rankingów państw według wskaźników zdrowotnych, z wykorzystaniem różnych metod analizy liniowej. Zilustrowano różnice wynikające z użycia różnorodnych technik porządkowania oraz przedstawiono wpływ obsługi danych odstających na pozycje krajów w rankingu, dostarczając tym samym wartościowego wglądu w ocenę stanu zdrowotnego populacji na skalę światową.
 
