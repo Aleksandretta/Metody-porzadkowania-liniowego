@@ -80,7 +80,9 @@ Winsoryzacja to metoda przetwarzania danych mająca na celu zmniejszenie wpływu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykres 3.4.2.1 ilustruje obserwacje odstające wykryte przy użyciu wykresów pudełkowych dla zmiennej Death rate, crude (per 1,000 people). Wszystkie wykresy są dostępne w folderze: [Boxploty](Projekt/Początkowa_obróbka_danych/Boxploty). Wyniki zastąpienia obserwacji odstających metodą winsoryzacji w postaci tabelarycznej są dostępne w arkuszu: [(Excel, arkusz "Dane po winsoryzacji")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=gnTRJm&nav=MTVfezlBQUFBRkVFLUM2NDktNDE2QS05QTJCLTRGREUwNDk2RjQzMH0)
 
 Żródła:
+
 [Winsoryzacja](https://statorials.org/pl/winsoryzacja/)
+
 [Metoda k-najbliższych sąsiadów](https://dax44.github.io/datamining/metoda-k-najbli-szych-s-siadów.html)
 
 
