@@ -39,9 +39,9 @@ Przeprowadzone badanie objęło zestawienie rankingów państw według wskaźnik
 ### 3.1 Cel i zakres badania
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Celem badania jest porównanie metod porządowania liniowego takich jak metoda Hellwiga, TOPSIS, TOPSIS (z unitaryzacją), SSW, NOWAK, MUZ i STRAHL poprzez opracowanie rankingów krajów na świecie względem wskaźników zdrowia, demografii i warunków sanitarnych. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 W celu poszerzenia analizy badano wpływ metod wykrywania i obsługiwania obserwacji odstających: metodę winsoryzacji przy pomocy boxplotów oraz algorytm Local Outlier Factor przy pomocy metody k-sąsiadów, na wartość wskaźnika syntetycznego generowanego poprzez wyżej wymienione metody porządkowania liniowego obiektów.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Zakres badania obejmuje analizę danych z <a href="https://data.worldbank.org/" target="_blank">The World Bank</a>, z bazy danych: <a href="https://databank.worldbank.org/source/health-nutrition-and-population-statistics" target="_blank">Health, Nutrition and Population</a>, z 2016 roku.
 </br>
 
