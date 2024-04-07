@@ -96,7 +96,7 @@ Według Blaine (2018) "Winsoryzacja to procedura, która zmniejsza wpływ warto�
 ![Death rate, crude (per 1,000 people)_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/fdf61b6a-a171-4077-8720-7353db38ab43)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Algorytm LOF (Local Outlier Factor) służy do wykrywania obserwacji odstających w danych. Działa poprzez porównanie lokalnej gęstości danej obserwacji z lokalną gęstością jej sąsiadów. Obserwacje o znacząco niższej gęstości niż ich sąsiedzi są uznawane za odstające. Wartość LOF bliska 1 oznacza obserwację typową, natomiast wartości znacząco większe od 1 wskazują na obserwacje odstające. </br>
+Algorytm LOF (Local Outlier Factor) służy do wykrywania obserwacji odstających w danych. Działa poprzez porównanie lokalnej gęstości danej obserwacji z lokalną gęstością jej sąsiadów. Obserwacje o znacząco niższej gęstości niż ich sąsiedzi są uznawane za odstające (Dokmentacja scikit-learn, b.d.). </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykres 3.4.2.2 ilustruje obserwacje odstające wykryte przez algorytm LOF dla zmiennej Population growth (annual %). Wszystkie wykresy są dostępne w folderze: [Local_Outlier_Factor](Projekt/Początkowa_obróbka_danych/Local_Outlier_Factor). Wyniki w postaci tabelarycznej są dostępne w arkuszu: [(Excel, arkusz "LOF outliers")](https://sggwpl-my.sharepoint.com/:x:/r/personal/s217265_sggw_edu_pl/_layouts/15/Doc.aspx?sourcedoc=%7BEE88219B-0210-411B-9739-BE55461F1232%7D&file=2_Poziom%20zdrowia%20na%20świecie.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
 **Wykres 3.4.2.2** *Obserwacje odstające wykryte przez algorytm LOF dla cechy Population growth (annual %).*
@@ -380,3 +380,4 @@ Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetyc
 5. Goldsmith S B The status of health status indicators PMID: 4554009 PMCID: PMC1615939
 6. Artur Ostrzyżek  Jerzy T. Marcinkowski, Jakość życia jako pozytywny wskaźnik zdrowia,  Hygeia Public Health 2012; 47 (4) : 408-411
 7. Blaine, Bruce E. (2018). "Winsorizing." The SAGE Encyclopedia of Educational Research, Measurement, and Evaluation , 1817-1818.
+8. Dokumentacja scikit-learn. (n.d.). Zaczerpnięto z: https://scikit-learn.org/stable/auto_examples/neighbors/plot_lof_outlier_detection.html. (Odwiedzono 07.04.2024 r.) 
