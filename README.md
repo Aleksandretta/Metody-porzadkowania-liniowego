@@ -10,29 +10,27 @@
 > [!TIP]
 > Zestawienia rankingów państw według danej metody są zaprezentowane najczytelniej w odrębnych arkuszach pliku [Excel](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=Nk8kzL)
 
-## 1. Streszczenie
-Artykuł przedstawia analizę porównawczą różnych metod liniowego porządkowania (Hellwiga, TOPSIS, SSW, NOWAK, MUZ, STRAHL) oraz wpływu technik radzenia sobie z obserwacjami odstającymi (winsoryzacja i metoda k-sąsiadów) na wartość wskaźnika syntetycznego dla rankingu państw według wskaźników zdrowia. Metody zostały zastosowane do opracowania rankingów krajów na świecie, a badania oparto na danych z The World Bank z roku 2016. Analiza ujawniła, że wszystkie metody liniowego porządkowania wykazują silne lub bardzo silne korelacje z pozostałymi, co wskazuje, że wybór metody nie wpływa znacząco na finalne miejsce państwa w rankingu. Najniższe korelacje między metodami (TOPSIS i NOWAK) wskazują jednak na pewien wpływ wyboru techniki obsługi wartości odstających. Ostatecznie, państwa podzielono na cztery grupy w oparciu o wskaźnik syntetyczny obliczony metodą STRAHL, z dominacją krajów Azji w grupie o najwyższych wskaźnikach i krajów Afryki w grupie o najniższych. 
+## 1. Streszczenie 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Artykuł przedstawia analizę porównawczą różnych metod liniowego porządkowania (Hellwiga, TOPSIS, SSW, NOWAK, MUZ, STRAHL) oraz wpływu technik radzenia sobie z obserwacjami odstającymi (winsoryzacja i metoda k-sąsiadów) na wartość wskaźnika syntetycznego dla rankingu państw według wskaźników zdrowia. Dane, na których przeprowadzono analizę pochodzą z bazy danych Health, Nutrition and Population dla roku 2016 (The World Bank). Analiza ujawniła, że wszystkie metody liniowego porządkowania wykazują silne lub bardzo silne korelacje z pozostałymi, co sugeruje, że wybór metody podporządkowania liniowego obiektów nie wpływa znacząco na finalne miejsce państwa w rankingu. Najniższe korelacje między metodami winsoryzacji i k-sąsiadów w metodach zarówno TOPSIS i NOWAK wskazują jednak na pewien wpływ wyboru techniki obsługi wartości odstających. Ostatecznie, państwa podzielono na cztery grupy w oparciu o wskaźnik syntetyczny obliczony metodą STRAHL. W grupie o najwyższych wskaźnikach dominowały kraje Azji, zaś o najniższych kraje Afryki. 
 
-#### Słowa kluczowe: metody porządkowania liniowego, wskaźnik syntetyczny, ranking państw, wskaźniki zdrowia, Hellwig, TOPSIS, SSW, NOWAK, MUZ, STRAHL, winsoryzacja, metoda k-sąsiadów
+#### Słowa kluczowe: metody porządkowania liniowego, wskaźnik syntetyczny, ranking państw, wskaźniki zdrowia, Hellwig, TOPSIS, SSW, NOWAK, MUZ, STRAHL, winsoryzacja, metoda k-sąsiadów, TOPSIS (z unitaryzacją)
 
 ## 2. Wprowadzenie
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Zdrowie ludności jest jednym z najbardziej wymownych wskaźników stanu rozwoju państwa, mając bezpośredni wpływ na produktywność, stabilność społeczną oraz długowieczność obywateli. Dlatego też, monitoring i poprawa zdrowia na poziomie globalnym jest nieodłącznym elementem dążenia do zrównoważonego rozwoju.
+Zdrowie ludności jest jednym z najbardziej wymownych wskaźników stanu rozwoju państwa, gdyż ma bezpośredni wpływ na produktywność, stabilność społeczną oraz długowieczność obywateli. Dlatego też, monitoring i poprawa zdrowia ludzi na poziomie globalnym jest nieodłącznym elementem dążenia do poprawy jakości życia na Ziemi.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Poprzez wielowymiarową analizę danych zdrowotnych, możemy upraszczać złożone relacje i procesy do formy syntetycznych wskaźników. To z kolei umożliwia identyfikację kluczowych czynników wpływających na zdrowie, co jest nieocenione w planowaniu polityk zdrowotnych i alokacji zasobów.
+Poprzez wielowymiarową analizę danych zdrowotnych, możemy sprowadzić złożone relacje i procesu do mierzalnego kryterium porównawczego jakim jest wskaźnik syntetyczny.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Wskaźniki użyte do oceny stanu zdrowia w różnych krajach zostały wybrane na podstawie ich znaczenia dla demografii i warunków sanitarnych. Obejmują one między innymi wskaźniki dzietności, oczekiwanej długości życia, dostępu do podstawowych usług sanitarnych oraz wskaźniki wzrostu populacji, co pozwala na wszechstronną ocenę warunków zdrowotnych. Wybór opierał się na ekonomiczności i interpretowalności danych, przy jednoczesnym zastosowaniu kryterium statystycznego zmienności dla zapewnienia reprezentatywności. W analizie posłużono się wskaźnikami stymulantami, które mają pozytywny wpływ na zdrowie (jak np. dostęp do sanitariatów), oraz destymulantami negatywnie wpływającymi na zdrowie (jak np. wskaźniki śmiertelności).
+Cechy użyte do oceny stanu zdrowia w różnych krajach, zostały wybrane na podstawie ich wpływu na demografię oraz dostępu do podstawowych środków sanitarnych. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Wybór odpowiednich metod porządkowania liniowego był istotny dla właściwej interpretacji zebranych danych. Stosowane techniki, takie jak metoda Hellwiga czy TOPSIS, były dobrane w taki sposób, aby zapewnić nie tylko precyzyjne, ale i możliwie obiektywne wyniki rankingu. Podczas selekcji metod szczególną uwagę zwrócono na ich zdolność do radzenia sobie z obserwacjami odstającymi oraz ich efektywność w kontekście różnorodności i kompleksowości danych zdrowotnych.
+Wskaźniki zdrowia obejmują między innymi wskaźniki dzietności, oczekiwanej długości życia, dostępu do podstawowych usług sanitarnych oraz wskaźniki wzrostu populacji. Wybór różnorodnych wskaźników zdrowia gwarantuje wszechstronną ocenę warunków zdrowotnych. Przy wyborze cech autorzy pracy kierowali się ekonomicznością i interpretowalnością danych, jak również zmiennością cechi w celu zapewnienia reprezentatywności. Wybrame cechy podzielono na stymulanty, które mają pozytywny wpływ na zdrowie (jak np. dostęp do sanitariatów), oraz destymulanty, które negatywnie wpływają na zdrowie (jak np. wskaźniki śmiertelności). 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Celem pracy jest dogłębna analiza i porównanie wybranych metod porządkowania liniowego w kontekście ich zastosowania do tworzenia rankingów państw na podstawie wskaźników zdrowotnych. Dążymy do określenia, w jakim stopniu wybrane metody radzenia sobie z wartościami odstającymi wpływają na końcowe wyniki.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Przeprowadzone badanie objęło zestawienie rankingów państw według wskaźników zdrowotnych, z wykorzystaniem różnych metod analizy liniowej. Zilustrowano różnice wynikające z użycia różnorodnych technik porządkowania oraz przedstawiono wpływ obsługi danych odstających na pozycje krajów w rankingu, dostarczając tym samym wartościowego wglądu w ocenę stanu zdrowotnego populacji na skalę światową.
+Do utworzenia miernika syntetycznego zastosowano następujące metody porządkowania liniowego obiektów: Hellwiga, TOPSIS, SSW, NOWAK, MUZ, STRAHL. Analizę poszerzono metodę TOPSIS_u, w której w metodzie TOPSIS zmieniono metodę normalizacji danych z klasycznego przekształcenia ilorazowego na unitaryzację. Celem tego zabiegu było zbadanie wpływu metody normalizacji na finalny ranking państw zaproponowamy przez klasyczną metodę TOPSIS oraz metodę TOPSIS_u.   
 
 ## 3. Przedmiot badania
 
