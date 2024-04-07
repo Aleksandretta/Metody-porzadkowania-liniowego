@@ -84,14 +84,6 @@ Według Blaine (2018) "Winsoryzacja to procedura, która zmniejsza wpływ warto�
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykres 3.4.2.1 ilustruje obserwacje odstające wykryte przy użyciu wykresów pudełkowych dla zmiennej Death rate, crude (per 1,000 people). Wszystkie wykresy są dostępne w folderze: [Boxploty](Projekt/Początkowa_obróbka_danych/Boxploty). Wyniki zastąpienia obserwacji odstających metodą winsoryzacji w postaci tabelarycznej są dostępne w arkuszu: [(Excel, arkusz "Dane po winsoryzacji")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=gnTRJm&nav=MTVfezlBQUFBRkVFLUM2NDktNDE2QS05QTJCLTRGREUwNDk2RjQzMH0)
 
-Żródła:
-
-[Winsoryzacja](https://statorials.org/pl/winsoryzacja/)
-
-[Metoda k-najbliższych sąsiadów](https://dax44.github.io/datamining/metoda-k-najbli-szych-s-siadów.html)
-
-
-
 **Wykres 3.4.2.1** *Obserwacje odstające wykryte przy pomocy wykresu pudełkowego dla cechy Death rate, crude (per 1,000 people)*
 ![Death rate, crude (per 1,000 people)_boxplot](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/fdf61b6a-a171-4077-8720-7353db38ab43)
 
@@ -103,7 +95,7 @@ Algorytm LOF (Local Outlier Factor) służy do wykrywania obserwacji odstającyc
 ![Population growth (annual %)_outliers](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/6419b139-dd0b-49cd-a06f-920900ebbbb3)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k najbliższych sąsiadów obserwacji do uzupełnienia brakujących danych. Dla każdej obserwacji z brakującymi wartościami, algorytm znajduje k najbliższych sąsiadów (opartych na dostępnych cechach) i uzupełnia brakujące wartości na podstawie wartości tych sąsiadów. W analizie, k=5 zostało wybrane jako optymalna liczba sąsiadów, zapewniająca dobry kompromis między dokładnością a złożonością obliczeniową. Pełne wyniki danych imputowanych przy pomocy algorytmu k-sąsiadów znajdują się w arkuszu: [(Excel, arkusz "LOF outliers imputowane")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=QdzOLB&nav=MTVfezJCOUIwRDhDLTZENTEtNEY3Ni1BQkMyLTUzN0NENDg0NkVEMX0)
+Algorytm imputacji k-sąsiadów (k-NN imputation) wykorzystuje informacje z k najbliższych sąsiadów obserwacji do uzupełnienia brakujących danych. Dla każdej obserwacji z brakującymi wartościami, algorytm znajduje k najbliższych sąsiadów (opartych na dostępnych cechach) i uzupełnia brakujące wartości na podstawie wartości tych sąsiadów (Zhang, 2012). W analizie, k=5 zostało wybrane jako optymalna liczba sąsiadów, zapewniająca dobry kompromis między dokładnością a złożonością obliczeniową. Pełne wyniki danych imputowanych przy pomocy algorytmu k-sąsiadów znajdują się w arkuszu: [(Excel, arkusz "LOF outliers imputowane")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=QdzOLB&nav=MTVfezJCOUIwRDhDLTZENTEtNEY3Ni1BQkMyLTUzN0NENDg0NkVEMX0)
 
 
 
@@ -380,4 +372,5 @@ Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetyc
 5. Goldsmith S B The status of health status indicators PMID: 4554009 PMCID: PMC1615939
 6. Artur Ostrzyżek  Jerzy T. Marcinkowski, Jakość życia jako pozytywny wskaźnik zdrowia,  Hygeia Public Health 2012; 47 (4) : 408-411
 7. Blaine, Bruce E. (2018). "Winsorizing." The SAGE Encyclopedia of Educational Research, Measurement, and Evaluation , 1817-1818.
-8. Dokumentacja scikit-learn. (n.d.). Zaczerpnięto z: https://scikit-learn.org/stable/auto_examples/neighbors/plot_lof_outlier_detection.html. (Odwiedzono 07.04.2024 r.) 
+8. Dokumentacja scikit-learn. (n.d.). Zaczerpnięto z: https://scikit-learn.org/stable/auto_examples/neighbors/plot_lof_outlier_detection.html. (Odwiedzono 07.04.2024 r.)
+9. Zhang, S. (2012). Nearest neighbor selection for iteratively kNN imputation. Journal of Systems and Software, 85(11), 2541-2552. https://doi.org/10.1016/j.jss.2012.05.073 
