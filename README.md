@@ -47,7 +47,7 @@ Zakres badania obejmuje analizę danych z <a href="https://data.worldbank.org/" 
 
 ### 3.2 Przegląd literatury
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Wśród wielu istniejących definicji zdrowia najczęściej podawana i uznawana jest definicja wg WHO, która mówi, że zdrowie to pełen dobrostan fizyczny, psychiczny i społeczny, a nie wyłącznie brak choroby czy niedomagania (WHO, 1946). W artykule "How should we define health?" (Huber <., et al., 2011)  autorzy sugerują, że tradycyjne podejście do zdrowia może być zbyt ograniczone. Według tego podejścia, zdrowie jest rozumiane jako zdolność do realizacji codziennych aktywności i osiągania celów życiowych, niezależnie od obecności lub braku choroby. Ta definicja podkreśla aktywny udział jednostki w społeczeństwie oraz jej zdolność do adaptacji i radzenia sobie z życiowymi wyzwaniami. Wysoki poziom zdrowia obywateli jest kluczowym elementem rozwoju państw.
+Wśród wielu istniejących definicji zdrowia najczęściej podawana i uznawana jest definicja wg WHO, która mówi, że zdrowie to pełen dobrostan fizyczny, psychiczny i społeczny, a nie wyłącznie brak choroby czy niedomagania (WHO, 1946). W artykule "How should we define health?" (Huber M., et al., 2011)  autorzy sugerują, że tradycyjne podejście do zdrowia może być zbyt ograniczone. Według tego podejścia, zdrowie jest rozumiane jako zdolność do realizacji codziennych aktywności i osiągania celów życiowych, niezależnie od obecności lub braku choroby. Ta definicja podkreśla aktywny udział jednostki w społeczeństwie oraz jej zdolność do adaptacji i radzenia sobie z życiowymi wyzwaniami. Wysoki poziom zdrowia obywateli jest kluczowym elementem rozwoju państw.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
