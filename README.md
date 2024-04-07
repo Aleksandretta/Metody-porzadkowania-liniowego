@@ -79,7 +79,7 @@ Analiza merytoryczna, kierowana ekonomicznością (koszt zebrania informacji) i 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Celem ubogacenia analizy porównawczej metod porządkowania liniowego użyto dwóch odrębnych metod radzenia sobie z obserwacjami odstającymi - winsoryzację (przy pomocy wykresów pudełkowych (boxplot)) oraz algorytmiczną metodę Local Outlier Factor (LOF).
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Winsoryzacja to metoda przetwarzania danych mająca na celu zmniejszenie wpływu wartości odstających na analizę statystyczną (Blaine, 2018). W analizie wykorzystano wąsy wykresów boxplot do określenia wartości ekstremalnych. Wartości leżące poza wąsami uznano za odstające i są zastępiono wartościami na krańcach wąsów. 
+Według Blaine (2018) "Winsoryzacja to procedura, która zmniejsza wpływ wartości odstających na średnią i wariancję", tym samym prowadząc do zmniejszenia wpływu wartości odstających na analizę statystyczną. W niniejszej analizie wykorzystano wąsy wykresów boxplot do określenia wartości ekstremalnych. Wartości leżące poza wąsami uznano za odstające i są zastępiono wartościami na krańcach wąsów. 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Należy zwrócić uwagę, zmienne Number of deaths ages 20-24 years AS 5 OF POP oraz Number of stillbirths AS % OF POP zostały policzone jako % populacji.
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykres 3.4.2.1 ilustruje obserwacje odstające wykryte przy użyciu wykresów pudełkowych dla zmiennej Death rate, crude (per 1,000 people). Wszystkie wykresy są dostępne w folderze: [Boxploty](Projekt/Początkowa_obróbka_danych/Boxploty). Wyniki zastąpienia obserwacji odstających metodą winsoryzacji w postaci tabelarycznej są dostępne w arkuszu: [(Excel, arkusz "Dane po winsoryzacji")](https://sggwpl-my.sharepoint.com/:x:/g/personal/s217265_sggw_edu_pl/EZshiO4QAhtBlzm-VUYfEjIByj867XJWS55VH2JokrfT3A?e=gnTRJm&nav=MTVfezlBQUFBRkVFLUM2NDktNDE2QS05QTJCLTRGREUwNDk2RjQzMH0)
@@ -379,3 +379,4 @@ Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetyc
 4. Huber M, Knottnerus JA, Green L, et al. How should we define health? BMJ 2011
 5. Goldsmith S B The status of health status indicators PMID: 4554009 PMCID: PMC1615939
 6. Artur Ostrzyżek  Jerzy T. Marcinkowski, Jakość życia jako pozytywny wskaźnik zdrowia,  Hygeia Public Health 2012; 47 (4) : 408-411
+7. Blaine, Bruce E. (2018). "Winsorizing." The SAGE Encyclopedia of Educational Research, Measurement, and Evaluation , 1817-1818.
