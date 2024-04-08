@@ -364,9 +364,6 @@ Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetyc
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W ramach określenia kierunku do następnych badań, autorzy pracy proponują zweryfikowanie czy ranking proponowany przez użyte w pracy metody porządkowania liniowego oraz korelacje między nimi pozostaną zbliżone po zwiększeniu ilości badanych cech (wskaźników zdrowia). 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dodatkowo, można rozszerzyć analizę o opracowanie innych metod porządkowania liniowego obiektów, np. metodę pozycyjną zaproponowaną w pracy Lira, 2002. 
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Naturalnie, porównanie wyników obecnej analizy na danych dotyczących zdrowia publicznego z wynikami uzyskanymi na danych z innego sektora, pozwoliłoby na weryfikację uniwersalności metod zastosowanych w niniejszej analizie.
-![image](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/87284e6f-260b-414f-b0f0-22a0cfc5ee9e)
-
-
 
 ## 7. Bibliografia
 1. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa ĝwiatowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie
