@@ -361,7 +361,11 @@ Metody porządkowania liniowego w przypadku obu metod radzenia sobie z obserwacj
 Najniższy poziom skorelowania między rankingiem na danych po winsoryzacji i na danych po zastosowaniu metody k-sąsiadów wykazały metody TOPSIS (0.64) i NOWAK (0.71), co sugerowałoby, że w przypadku tych metod sposób obsłużenia oberwacji odstających miał wpływ na finalne miejsce państwa w rankingu. Jednakże, wskaźnik korelacji Pearsona wynoszący powyżej 0.6 jest interpretowany jako korelacja silna, zatem można stwierdzić, że wybór metody obsłużenia oberwacji odstających w przypadku metod TOPSIS i NOWAK miał niewielki wpływ na rankingi sporządzone przy użyciu tych dwóch metod.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetycznego obliczonego przy pomocy metody STRAHL (dla obu metod obsłużenia wartości odstających). W grupie 1 (o najwyższym poziomie wskaźnika syntetycznego) dominowały kraje Azji, zaś w grupie 4 (o najniższym poziomie wskaźnika syntetycznego) dominowały kraje Afryki.
-</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warto rozszerzyć omówione badanie o dodanie większej ilości wskaźników zdrowia  a następnie zweryfikować czy podane korelacje między metodami pozostaną takie same. Warto byłoby przeprowadzić analizę na danych z innego sektora niż zdrowie. Dodatkowo, można dodać inne metody porządkowania liniowego np. metodę pozycyjna zaproponowaną w pracy Lira, 2002.
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W ramach określenia kierunku do następnych badań, autorzy pracy proponują zweryfikowanie czy ranking proponowany przez użyte w pracy metody porządkowania liniowego oraz korelacje między nimi pozostaną zbliżone po zwiększeniu ilości badanych cech (wskaźników zdrowia). 
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dodatkowo, można rozszerzyć analizę o opracowanie innych metod porządkowania liniowego obiektów, np. metodę pozycyjną zaproponowaną w pracy Lira, 2002. 
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Naturalnie, porównanie wyników obecnej analizy na danych dotyczących zdrowia publicznego z wynikami uzyskanymi na danych z innego sektora, pozwoliłoby na weryfikację uniwersalności metod zastosowanych w niniejszej analizie.
+![image](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/87284e6f-260b-414f-b0f0-22a0cfc5ee9e)
+
 
 
 ## 7. Bibliografia
