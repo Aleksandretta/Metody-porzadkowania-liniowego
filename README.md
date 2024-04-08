@@ -361,6 +361,8 @@ Metody porządkowania liniowego w przypadku obu metod radzenia sobie z obserwacj
 Najniższy poziom skorelowania między rankingiem na danych po winsoryzacji i na danych po zastosowaniu metody k-sąsiadów wykazały metody TOPSIS (0.64) i NOWAK (0.71), co sugerowałoby, że w przypadku tych metod sposób obsłużenia oberwacji odstających miał wpływ na finalne miejsce państwa w rankingu. Jednakże, wskaźnik korelacji Pearsona wynoszący powyżej 0.6 jest interpretowany jako korelacja silna, zatem można stwierdzić, że wybór metody obsłużenia oberwacji odstających w przypadku metod TOPSIS i NOWAK miał niewielki wpływ na rankingi sporządzone przy użyciu tych dwóch metod.
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetycznego obliczonego przy pomocy metody STRAHL (dla obu metod obsłużenia wartości odstających). W grupie 1 (o najwyższym poziomie wskaźnika syntetycznego) dominowały kraje Azji, zaś w grupie 4 (o najniższym poziomie wskaźnika syntetycznego) dominowały kraje Afryki.
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warto rozszerzyć omówione badanie o dodanie większej ilości wskaźników zdrowia  a następnie zweryfikować czy podane korelacje między metodami pozostaną takie same. Warto byłoby przeprowadzić analizę na danych z innego sektora niż zdrowie. Dodatkowo, można dodać inne metody porządkowania liniowego np. metodę pozycyjna zaproponowaną w pracy Lira, 2002.
+
 
 ## 7. Bibliografia
 1. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa ĝwiatowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie
