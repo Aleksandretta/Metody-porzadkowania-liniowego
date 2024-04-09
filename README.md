@@ -241,7 +241,7 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 
 ### 5.2 Wyniki w postaci graficznej
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graficzne przedstawienie różnic w rankingach państw (zarówno na danych przybliżonych za pomocą metody winsoryzacji, jak również danych przybliżonych metodą k-sąsiadów) zostało sporządzone w postaci wykresów sieciowych (Obraz 5.1 oraz Obraz 5.2) oraz dla lepszego zilustrowania różnic w rankingach konkretnego kraju w postaci wykresów słupkowych (Wykres 5.1 oraz Wykres 5.2). </br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wszystkie wykresy słupkowe są dostępne w folderze boxplot_bar: link do przykładowego wykresu: [boxplot_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg) oraz w folderze k_sasiadow_bar: link do przykładowego wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sas_AFG-COD.jpg.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wszystkie wykresy słupkowe są dostępne w folderze boxplot_bar: link do przykładowego wykresu: [boxplot_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg) oraz w folderze k_sasiadow_bar: link do przykładowego wykresu: [k_sasiadow_bar](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_AFG-COD_kNN.jpg)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wykresy sieciowe porównujące rankingi w zależności od użytej metody obsłużenia outlierów (winsoryzacja bądź metoda k-sąsiadów) w obrębie jednej metody porządkowania liniowego są dostępne w folderze [Metody_porządkowania_liniowego](Projekt/Metody_porządkowania_liniowego) w folderze dedykowanym danej metodzie: link do wykresu sieciowego porównującego wyniki analizy: [Hellwig_radar](Projekt/Metody_porządkowania_liniowego/Hellwig)
 
@@ -251,10 +251,10 @@ Oznaczenia: $x_{ij}$ - wartość j-tej cechy dla i-tego kraju; $z_{ij}$ - warto�
 **Wykres 5.2.2** *Graficzna reprezentacja różnic w przydzielanych państwom rankingach przez rożne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [radar k_sasiadow](Projekt/Porównania_analiz/Porównanie_rankingów_radar/porownanie_metod_k_sasiadow_radar.jpg)
 ![porownanie_metod_k_sasiadow_radar](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/60c56d70-af0a-48e7-a5ee-6ec930409b9e)
 
-**Wykres 5.2.3** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [bar_boxplot_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_boxplot_AFG-COD.jpg)
+**Wykres 5.2.3** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą winsoryzacji)* link do wykresu: [bar_boxplot_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/boxplot_bar/porownanie_metod_bar_AFG-COD.jpg)
 ![porownanie_metod_bar_AFG-COD](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/bbc18a7c-d98a-4aec-90ff-1143cddf3e50)
 
-**Wykres 5.2.4** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [bar_k_sasiadow_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_k_sasiadow_AFG_COD.jpg)
+**Wykres 5.2.4** *Porównanie rankingów państw AFG-COD przyporządkowanym państwom przez różne metody porządkowania liniowego obiektów (na danych przybliżonych metodą k-sąsiadów)* link do wykresu: [bar_k_sasiadow_AFG-COD](Projekt/Porównania_analiz/Porównanie_rankingów_bar/k_sasiadow_bar/porownanie_metod_bar_AFG-COD_kNN.jpg)
 ![porownanie_metod_bar_AFG-COD_kNN](https://github.com/Aleksandretta/Metody-porzadkowania-liniowego/assets/113725452/424717bd-372d-4912-898b-d8a128e429c4)
 
 ### 5.3 Porównanie uzyskanych wyników
