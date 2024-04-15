@@ -359,21 +359,21 @@ Kraje podzielono na cztery grupy w zależności od wartości wskaźnika syntetyc
 </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W ramach określenia kierunku do następnych badań, autorzy pracy proponują zweryfikowanie czy ranking proponowany przez użyte w pracy metody porządkowania liniowego oraz korelacje między nimi pozostaną zbliżone po zwiększeniu ilości badanych cech (wskaźników zdrowia). Dodatkowo, można rozszerzyć analizę o opracowanie innych metod porządkowania liniowego obiektów, np. metodę pozycyjną zaproponowaną w pracy J. Liry (2002). Naturalnie, porównanie wyników obecnej analizy na danych dotyczących zdrowia publicznego z wynikami uzyskanymi na danych z innego sektora, pozwoliłoby na weryfikację uniwersalności metod zastosowanych w niniejszej analizie.
 
 ## 7. Bibliografia
-1. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa ĝwiatowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie
-2. Ręklewski, M. (2020). "Statystyka opisowa: Teoria i przykłady" (Państwowa Uczelnia Zawodowa we Włocławku), str. 95. ISBN 978-83-60607-93-0.
+1. Blaine, Bruce E. (2018). "Winsorizing." The SAGE Encyclopedia of Educational Research, Measurement, and Evaluation, 1817-1818.
+2. Breunig, M. M.; Kriegel, H.-P.; Ng, R. T.; Sander, J. (2000). "LOF: Identifying Density-based Local Outliers" (PDF). Proceedings of the 2000 ACM SIGMOD International Conference on Management of Data. SIGMOD. pp. 93–104. doi:10.1145/335191.335388. ISBN 1-58113-217-4.
 3. Constitution of the World Health Organization. AM J Public Health Nations Health 1946, 36(11): 1315-1323.
-4. Huber M, Knottnerus JA, Green L, et al. How should we define health? BMJ 2011
-5. Goldsmith S B The status of health status indicators PMID: 4554009 PMCID: PMC1615939
-6. Artur Ostrzyżek  Jerzy T. Marcinkowski, Jakość życia jako pozytywny wskaźnik zdrowia,  Hygeia Public Health 2012; 47 (4) : 408-411
-7. Blaine, Bruce E. (2018). "Winsorizing." The SAGE Encyclopedia of Educational Research, Measurement, and Evaluation , 1817-1818.
-8. Dokumentacja scikit-learn. (n.d.). Zaczerpnięto z: https://scikit-learn.org/stable/auto_examples/neighbors/plot_lof_outlier_detection.html. (Odwiedzono 07.04.2024 r.)
-9. Zhang, S. (2012). Nearest neighbor selection for iteratively kNN imputation. Journal of Systems and Software, 85(11), 2541-2552. https://doi.org/10.1016/j.jss.2012.05.073
-10. Strahl, D. (1978). Propozycja konstrukcji miary syntetycznej (A proposal for the construction of a synthetic measure). Przegląd statystyczny, 25(2), 205-215.
+4. Cover, Thomas M.; Hart, Peter E. (1967). "Nearest neighbor pattern classification". IEEE Transactions on Information Theory. 13 (1): 21–27. CiteSeerX 10.1.1.68.2616. doi:10.1109/TIT.1967.1053964. S2CID 5246200.
+5. Dokumentacja scikit-learn. (n.d.). Zaczerpnięto z: https://scikit-learn.org/stable/auto_examples/neighbors/plot_lof_outlier_detection.html. (Odwiedzono 07.04.2024 r.)
+6. Fix, Evelyn; Hodges, Joseph L. (1951). Discriminatory Analysis. Nonparametric Discrimination: Consistency Properties. USAF School of Aviation Medicine, Randolph Field, Texas.
+7. Goldsmith S B "The status of health status indicators" PMID: 4554009 PMCID: PMC1615939
+8. Hellwig Z., (1968), "Zastosowanie metody taksonomicznej do typologicznego podziału krajów ze względu na poziom ich rozwoju oraz zasoby i strukturę wykwalifikowanych kadr", Przegląd Statystyczny, (4), 307-327.
+9. Huber M, Knottnerus JA, Green L, et al. "How should we define health?" BMJ 2011.
+10. Hwang C. L., Yoon K., (1981), Multiple Attribute Decision Making: Methods and Applications, Springer Verlag.
 11. Kukuła K., (2000), Metoda unitaryzacji zerowanej, PWN, Warszawa.
-12. Perkal, J. (1960). On the Analysis of a Set of characteristics. Applicationes Mathematicae, 5(1), 35-45.
-13. Nowak, E., (1997), Syntetyczne mierniki plonów w krajach europejskich, Wiadomości Statystyczne, (10), 19-22.
-14. Hellwig Z., (1968), Zastosowanie metody taksonomicznej do typologicznegi podziału krajów ze względu na poziom ich rozwoju oraz zasoby i strukturę wykwalifikowanych kadr, Przegląd Statystyczny, (4), 307-327.
-15. Hwang C. L., Yoon K., (1981), Multiple Attribute Decision Making: Methods and Applications, Springer Verlag.
-16. Breunig, M. M.; Kriegel, H.-P.; Ng, R. T.; Sander, J. (2000). LOF: Identifying Density-based Local Outliers (PDF). Proceedings of the 2000 ACM SIGMOD International Conference on Management of Data. SIGMOD. pp. 93–104. doi:10.1145/335191.335388. ISBN 1-58113-217-4.
-17. Fix, Evelyn; Hodges, Joseph L. (1951). Discriminatory Analysis. Nonparametric Discrimination: Consistency Properties. USAF School of Aviation Medicine, Randolph Field, Texas.
-18. Cover, Thomas M.; Hart, Peter E. (1967). "Nearest neighbor pattern classification". IEEE Transactions on Information Theory. 13 (1): 21–27. CiteSeerX 10.1.1.68.2616. doi:10.1109/TIT.1967.1053964. S2CID 5246200.
+12. Nowak, E., (1997), "Syntetyczne mierniki plonów w krajach europejskich", Wiadomości Statystyczne, (10), 19-22.
+13. Ostrzyżek, Artur, i Jerzy T. Marcinkowski. "Jakość życia jako pozytywny wskaźnik zdrowia." Hygeia Public Health 2012, tom 47, nr 4: 408-411.
+14. Perkal, J. (1960). "On the Analysis of a Set of characteristics". Applicationes Mathematicae, 5(1), 35-45.
+15. PRS Zeszyty Naukowe Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie Problemy Rolnictwa Światowego tom 18 (XXXIII), zeszyt 2, 2018: 183–192 DOI: 10.22630/PRS.2018.18.2.46 Karol Kukuła, Lidia Luty Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie
+16. Ręklewski, M. (2020). "Statystyka opisowa: Teoria i przykłady" (Państwowa Uczelnia Zawodowa we Włocławku), str. 95. ISBN 978-83-60607-93-0.
+17. Strahl, D. (1978). "Propozycja konstrukcji miary syntetycznej (A proposal for the construction of a synthetic measure)". Przegląd Statystyczny, 25(2), 205-215.
+18. Zhang, S. (2012). "Nearest neighbor selection for iteratively kNN imputation". Journal of Systems and Software, 85(11), 2541-2552. https://doi.org/10.1016/j.jss.2012.05.073
